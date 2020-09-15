@@ -239,11 +239,24 @@ date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,to
 
 
 date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
-2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,         ,      ,0        ,20       ,8            ,12            ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Adipasir 	      ,      ,0        ,0        ,5            ,5             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Badamita 	      ,      ,0        ,1        ,2            ,2             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Bandingan 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Gelang       	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Gumelem Wetan   ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Kincang     	  ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Lengkong 	      ,      ,0        ,0        ,2            ,2             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Luwung 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Pingit 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Rakit 	      ,      ,0        ,1        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Situwangi 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,Tanjunganom 	  ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
 
-
+date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Sigaluh          ,         ,      ,4        ,8        ,2            ,6             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+
+
 2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,         ,      ,4        ,4        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,         ,      ,0        ,9        ,2            ,6             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Wanayasa         ,         ,      ,2        ,7        ,4            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
