@@ -268,10 +268,26 @@ date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,to
 2020/09/04,Jawa Tengah,Banjarnegara,Sigaluh          ,Tunggara 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
 
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Berta        	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Brengkok    	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Derik   	      ,      ,0        ,0        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Dermasari 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Gumelem Kulon   ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Gumelem Wetan   ,      ,1        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,KarangjatI 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Karangsalam 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Kedawung 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Kemranggon 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Panerusan Kulon ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Panerusan Wetan ,      ,3        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Pekikiran 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Piasa Wetan 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Susukan 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+
+
 date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
-2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,         ,      ,4        ,4        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
-
-
 2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,         ,      ,0        ,9        ,2            ,6             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+
+
 2020/09/04,Jawa Tengah,Banjarnegara,Wanayasa         ,         ,      ,2        ,7        ,4            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
