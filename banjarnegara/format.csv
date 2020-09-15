@@ -285,9 +285,18 @@ date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,to
 2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,Susukan 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
 
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Gumingsir       ,      ,0        ,0        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Kandangwangi    ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Karangjambe     ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Karangkemiri    ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Kasilib 	      ,      ,0        ,1        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Lemahjaya 	  ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Linggasari 	  ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Medayu  	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Tapen 	      ,      ,0        ,0        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Wanadadi 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,Wanakarsa 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+
 date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
-2020/09/04,Jawa Tengah,Banjarnegara,Wanadadi         ,         ,      ,0        ,9        ,2            ,6             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
-
-
 2020/09/04,Jawa Tengah,Banjarnegara,Wanayasa         ,         ,      ,2        ,7        ,4            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
