@@ -213,9 +213,25 @@ date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,to
 
 
 date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
-2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,         ,      ,4        ,2        ,12           ,12            ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Danaraja 	      ,      ,0        ,0        ,3            ,3             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Gumiwang 	      ,      ,1        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Kaliajir 	      ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Kalipelus 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Kalitengah 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Karanganyar	  ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Kutawuluh 	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Merden   	      ,      ,1        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Mertasari 	  ,      ,1        ,0        ,1            ,1             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Parakan 	      ,      ,0        ,0        ,1            ,1             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Petir   	      ,      ,1        ,1        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Pucungbedug	  ,      ,0        ,0        ,0            ,0             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+2020/09/04,Jawa Tengah,Banjarnegara,Purwanegara      ,Purwanegara	  ,      ,0        ,1        ,4            ,4             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 
+
+date_update,provinsi,kabupaten_kota,kecamatan        ,Kelurahan       ,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Purwareja Klampok,         ,      ,9        ,2        ,9            ,9             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
+
+
 2020/09/04,Jawa Tengah,Banjarnegara,Rakit            ,         ,      ,0        ,20       ,8            ,12            ,0              ,               ,0                ,1        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Sigaluh          ,         ,      ,4        ,8        ,2            ,6             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
 2020/09/04,Jawa Tengah,Banjarnegara,Susukan          ,         ,      ,4        ,4        ,2            ,2             ,0              ,               ,0                ,0        ,         ,        ,          ,http://corona.banjarnegarakab.go.id/,,,
