@@ -1,140 +1,252 @@
 ﻿date_update,provinsi,kabupaten_kota,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
 16/09/2020,Jawa Tengah,Demak       ,Mranggen ,         ,      ,         ,         ,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
 16/09/2020,Jawa Tengah,Demak       ,Mranggen ,         ,      ,         ,         ,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
-
-
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kembang Arum
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Mranggen
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kangkung
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kalitengah
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Brumbung
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Sumberejo
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Bandungrejo
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Menur
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Ringinjajar
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Candisari
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Ngemplak
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Karangsono
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Jamus
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Waru
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Tegalarum
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Tamansari
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Banyumeneng
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kebonbatur
-16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Batursari
-
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Belokan
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalicilik
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kadilangu
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Singorejo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Karangmlati
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bintoro
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Turirejo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kedondong
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bango
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Raji
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Mulyorejo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Sedo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bolo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalonsari
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalikondang
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Cobean
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Tempuran
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Donorejo
-16/09/2020,Jawa Tengah,Demak       ,Demak    ,Mangunjiwan
-
-
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonowoso
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Sampang
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Tambak Bulusan
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Pulosari
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Rejosari
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Ploso
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonokerto
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Karangsari
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Batu
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Donorejo
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Kedung Uter
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Karanglowo
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonoagung
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Klitih
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Grogol
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Pidodo
-16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Dukun
-
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Kedondong
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Banjarsari
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Gajah
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sari
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Boyolali
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Jatisono
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sambirolo
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tiogo Pandogan
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Surodadi
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Gedangalas
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sambung
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tambirejo
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Mlatiharjo
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Mojosimo
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Medini
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Wilalung
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tanjunganyar
-16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Miekang
-
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Bolorejo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Gelas
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kuncir
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Trengguli
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mranak
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Pilangrejo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kerangkulan
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Sidomulyo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Bunderan
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mojo demak
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mrisen
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Doreng
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Karangrowo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kalianyar
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Wonosalam
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Tlogorejo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Tlogodowo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Lempuyang
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Karangrejo
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kendaldoyong
-16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Jogoloyo
-
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Cangkring B
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Undaan Lor
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Undaan Kidul
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kelanjung
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Cangkring Rembang
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Tuang
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Wonorejo
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Ngemplik Wetan
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Karanganyar
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Ngaluran
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kedungwaru kidul
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kedungwaru Lor
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Tugu Lor
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kotaan
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Wonoketingal
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Jatirejo
-16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Bandungrejo
-
-16/09/2020,Jawa Tengah,Demak       ,Bonang  ,
-
-
-16/09/2020,Jawa Tengah,Demak       ,Kebonagung,
-
-
-16/09/2020,Jawa Tengah,Demak       ,Guntur  ,
-
-16/09/2020,Jawa Tengah,Demak       ,Mijen   ,
-
-16/09/2020,Jawa Tengah,Demak       ,Dempet  ,
-
-16/09/2020,Jawa Tengah,Demak       ,Wedung  ,
-
-16/09/2020,Jawa Tengah,Demak       ,Karangawen,
-
-16/09/2020,Jawa Tengah,Demak       ,Sayung  ,
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kembang Arum        ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Mranggen            ,     ,   29   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kangkung            ,     ,   18   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kalitengah          ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Brumbung            ,     ,   12   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Sumberejo           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Bandungrejo         ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Menur               ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Ringinjajar         ,     ,   14   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Candisari           ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Ngemplak            ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Karangsono          ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Jamus               ,     ,   10   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Waru                ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Tegalarum           ,     ,   10   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Tamansari           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Banyumeneng         ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Kebonbatur          ,     ,   19   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mranggen ,Batursari           ,     ,   59   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Belokan             ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalicilik           ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kadilangu           ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Singorejo           ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Karangmlati         ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bintoro             ,     ,   63   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Turirejo            ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kedondong           ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bango               ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Raji                ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Mulyorejo           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Sedo                ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Bolo                ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalonsari           ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Kalikondang         ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Cobean              ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Tempuran            ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Donorejo            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Demak    ,Mangunjiwan         ,     ,   32   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonowoso        ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Sampang         ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Tambak Bulusan  ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Pulosari        ,     ,   10   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Rejosari        ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Ploso           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonokerto       ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Karangsari      ,     ,   21   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Batu            ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Donorejo        ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Kedung Uter     ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Karanglowo      ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Wonoagung       ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Klitih          ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Grogol          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Pidodo          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karang Tengah,Dukun           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Kedondong           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Banjarsari          ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Gajah               ,     ,   16   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sari                ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Boyolali            ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Jatisono            ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sambirolo           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tiogo Pandogan      ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Surodadi            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Gedangalas          ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Sambung             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tambirejo           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Mlatiharjo          ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Mojosimo            ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Medini              ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Wilalung            ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Tanjunganyar        ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Gajah    ,Miekang             ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Bolorejo            ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Gelas               ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kuncir              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Trengguli           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mranak              ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Pilangrejo          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kerangkulan         ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Sidomulyo           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Bunderan            ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mojo demak          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Mrisen              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Doreng              ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Karangrowo          ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kalianyar           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Wonosalam           ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Tlogorejo           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Tlogodowo           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Lempuyang           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Karangrejo          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Kendaldoyong        ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wonosalam,Jogoloyo            ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Cangkring B       ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Undaan Lor        ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Undaan Kidul      ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kelanjung         ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Cangkring Rembang ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Tuang             ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Wonorejo          ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Ngemplik Wetan    ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Karanganyar       ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Ngaluran          ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kedungwaru kidul  ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kedungwaru Lor    ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Tugu Lor          ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Kotaan            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Wonoketingal      ,     ,   13   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Jatirejo          ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karanganyar,Bandungrejo       ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Morodemak            ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Purworejo            ,     ,   16   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Sumberejo            ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Gebangarum           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Gebang               ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Kembangan            ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Karangrejo           ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Sukodono             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Tlogoboyo            ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Margolinduk          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Tridonorejo          ,     ,   12   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Wonosari             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Jatirogo             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Pancoharjo           ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Jali                 ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Krojanboga           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Serangan             ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Balahwalang          ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Jatimulyo            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Weding               ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Bonang  ,Bonangrejo           ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Mangunrejo         ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Tlogosih           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Megonten           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Sokokidul          ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Pilangwelan        ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Kebonagung         ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Mijen              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Klampok lor        ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Werdoyo            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Babat              ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Prigi              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Sarimulyo          ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Solowire           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Kebonagung,Mangunan lor       ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Temuroso             ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Turitempel           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Tlogoweru            ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Trimulyo             ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Bakalrejo            ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Tlogorejo            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Bumiharjo            ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Sidoharjo            ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Bogosari             ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Guntur               ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Blerong              ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Pamongan             ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Sukorejo             ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Sarirejo             ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Sidokumpul           ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Gaji                 ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Banjarejo            ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Krandon              ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Tangkis              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Guntur  ,Wonorejo             ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Mijen                ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Geneng               ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Tanggul              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Banteng mati         ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Mlaten               ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Bermi                ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Gempol songo         ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Ngelowetan           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Bakung               ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Pasir                ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Jleper               ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Rejosari             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Ngegol               ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Pecuk                ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Mijen   ,Ngelo Kulon          ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Harjowinangun        ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Dempet               ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Brakas               ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Sidomulyo            ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Gempoldenok          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Bolosengan           ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Merak                ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Kebonsari            ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Balerejo             ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Karangrejo           ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Baleromo             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Jeruk gulung         ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Kunir                ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Kedongori            ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Kuwu                 ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Dempet  ,Kramal               ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Wedung               ,     ,   18   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Ruwit                ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Bungo                ,     ,   14   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Ngawen               ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Kenduren             ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Buko                 ,     ,   14   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Mandung              ,     ,   0    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Berahan Wetan        ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Berahan Kulon        ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Tempel               ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Kedung Karang        ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Kedung Mutih         ,     ,   32   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Jungsemi             ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Jelak                ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Jungpasir            ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Mutih Kulon          ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Mutih Wetan          ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Kendalasem           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Babalan              ,     ,   12   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Wedung  ,Tedunan              ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Bumirejo           ,     ,   9    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Pundenarum         ,     ,   10   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Kuripan            ,     ,   16   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Brambang           ,     ,   14   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Karangawen         ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Sidorejo           ,     ,   15   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Wonosektor         ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Tlogorejo          ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Rejosari           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Teluk              ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Margahayu          ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Karangawen,Jragung            ,     ,   8    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Bedono               ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Gemulak              ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Sriwulan             ,     ,   16   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Tugu                 ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Purwosari            ,     ,   19   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Surodadi             ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Sidorejo             ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Timbulsloko          ,     ,   1    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Banjarsari           ,     ,   3    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Sidogemah            ,     ,   11   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Tambakrolo           ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Kalisari             ,     ,   10   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Dombo                ,     ,   2    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Bulusari             ,     ,   4    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Jelaksari            ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Karangasem           ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Prampelan            ,     ,   6    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Sayung               ,     ,   14   ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Pilangsari           ,     ,   7    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
+16/09/2020,Jawa Tengah,Demak       ,Sayung  ,Loireng              ,     ,   5    ,,             ,              ,               ,               ,                 ,        ,         ,         ,          ,https://corona.demakkab.go.id/
