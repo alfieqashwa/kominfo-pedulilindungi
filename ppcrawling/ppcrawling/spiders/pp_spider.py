@@ -338,3 +338,65 @@ class KudusSpider(scrapy.Spider):
                 'total_ppdt': total_ppdt,
                 'source_link': source_link,
             }
+
+
+class CilacapSpider(scrapy.Spider):
+    name = 'cilacap'
+    start_urls = [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vRjGxvSiQjtQO7qSLj3umHBjodq0bTqOLnyYmvgXilPYoXj405WjVTOCumvl_yWg3bYWlV8oau0B_eK/pubhtml"
+    ]
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kecamatan'
+        user_pic = 'Alfie Qashwa'
+        date_update = datetime.now().strftime("%d/%m/%Y")
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Cilacap'
+        kecamatan = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[1]/text()')[4:-2].extract()
+        kelurahan = ''
+        alamat = ''
+        total_odp = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[8]/text()')[2:-2].extract()
+        total_pdp = ''
+        total_positif = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[12]/text()')[1:-2].extract()
+        positif_sembuh = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[11]/text()')[3:-2].extract()
+        positif_dirawat = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[10]/text()')[2:-2].extract()
+        positif_isolasi = ''
+        positif_meninggal = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[9]/text()')[2:-2].extract()
+        total_otg = ''
+        odr_total = response.xpath(
+            '//*[@id="1603347864"]/div/table/tbody/tr/td[4]/text()')[3:-2].extract()
+        total_pp = ''
+        total_ppdt = ''
+        source_link = 'http://corona.cilacapkab.go.id/'
+
+        for i in range(len(kecamatan)):
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan[i],
+                'kelurahan': kelurahan,
+                'alamat': alamat,
+                'total_odp': total_odp[i],
+                'total_pdp': total_pdp,
+                'total_positif': total_positif[i],
+                'positif_sembuh': positif_sembuh[i],
+                'positif_dirawat': positif_dirawat[i],
+                'positif_isolasi': positif_isolasi,
+                'positif_meninggal': positif_meninggal[i],
+                'total_otg': total_otg,
+                'odr_total': odr_total[i],
+                'total_pp': total_pp,
+                'total_ppdt': total_ppdt,
+                'source_link': source_link,
+            }
