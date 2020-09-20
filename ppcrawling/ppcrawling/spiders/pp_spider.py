@@ -265,7 +265,7 @@ class PurbalinggaSpider(scrapy.Spider):
             'source_link': source_link,
         }
 
-# Kecamatan
+################################# KECAMATAN #####################################
 
 
 class KudusSpider(scrapy.Spider):
@@ -283,6 +283,7 @@ class KudusSpider(scrapy.Spider):
         user_pic = "Alfie Qashwa"
         crawl_date = response.xpath(
             '//*[@id="monitoring"]/div/div/div/div/div[1]/span/text()').extract_first()
+        # s**t dirty code
         day = crawl_date[18:20]
         month = crawl_date[21:30]
         year = crawl_date[31:35]
@@ -396,6 +397,76 @@ class CilacapSpider(scrapy.Spider):
                 'positif_meninggal': positif_meninggal[i],
                 'total_otg': total_otg,
                 'odr_total': odr_total[i],
+                'total_pp': total_pp,
+                'total_ppdt': total_ppdt,
+                'source_link': source_link,
+            }
+
+
+class MagelangSpider(scrapy.Spider):
+    name = 'magelang'
+    start_urls = [
+        "https://infocorona.magelangkab.go.id/"
+    ]
+
+    months = dict(Januari='1', Februari='2', Maret='3', April='4', Mei='5', Juni='6',
+                  Juli='7', Agustus='8', September='9', Oktober='10', November='11', Desember='12')
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kecamatan'
+        user_pic = 'Alfie Qashwa'
+        crawl_date = response.xpath(
+            '//*[@id="statistik"]/div/div[1]/div[1]/div/div/text()').extract_first()
+        # s**t dirty code
+        day = crawl_date[9:11]
+        month = crawl_date[12:21]
+        year = crawl_date[22:27]
+        date_update = day + '/' + self.months[month] + '/' + year
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Magelang'
+        kecamatan = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[1]/text()').extract()
+        kelurahan = ''
+        alamat = ''
+        total_odp = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[2]/text()').extract()
+        total_pdp = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[3]/text()').extract()
+        total_positif = ''
+        positif_sembuh = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[7]/text()').extract()
+        positif_dirawat = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[6]/text()').extract()
+        positif_isolasi = ''
+        positif_meninggal = response.xpath(
+            '//*[@id="collapseTwo"]/div/div/div[4]/div/table/tbody/tr/td[8]/text()').extract()
+        total_otg = ''
+        odr_total = ''
+        total_pp = ''
+        total_ppdt = ''
+        source_link = 'https://infocorona.magelangkab.go.id/'
+
+        for q in range(len(kecamatan)):
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan[q].capitalize(),
+                'kelurahan': kelurahan,
+                'alamat': alamat,
+                'total_odp': total_odp[q],
+                'total_pdp': total_pdp[q],
+                'total_positif': total_positif,
+                'positif_sembuh': positif_sembuh[q],
+                'positif_dirawat': positif_dirawat[q],
+                'positif_isolasi': positif_isolasi,
+                'positif_meninggal': positif_meninggal[q],
+                'total_otg': total_otg,
+                'odr_total': odr_total,
                 'total_pp': total_pp,
                 'total_ppdt': total_ppdt,
                 'source_link': source_link,
