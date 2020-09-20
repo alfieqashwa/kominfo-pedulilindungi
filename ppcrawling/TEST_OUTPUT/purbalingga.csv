@@ -1,2 +1,19 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2020-09-20,kabupaten,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,,,,3.159,610,131,105,24,,2,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kemangkon,,,137,40,12,11,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Bukateja,,,163,35,11,6,5,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kejobong,,,212,30,7,6,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Pengadegan,,,46,27,6,6,0,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kaligondang,,,97,40,3,2,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Purbalingga,,,345,98,35,27,8,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kalimanah,,,98,51,14,10,3,,1,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Padamara,,,69,33,11,8,3,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kutasari,,,233,40,14,7,6,,1,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Bojongsari,,,52,35,8,7,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Mrebet,,,413,37,2,2,0,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Bobotsari,,,91,15,2,2,0,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Karangreja,,,134,29,8,7,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Karangjambu,,,128,16,1,1,0,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Karanganyar,,,243,21,1,0,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Kertanegara,,,322,13,6,1,5,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Karangmoncol,,,202,39,4,3,1,,0,,,,,https://corona.purbalinggakab.go.id/
+2020-09-20,kecamatan,Alfie Qashwa,20/09/2020,Jawa Tengah,Purbalingga,Rembang,,,175,28,3,2,1,,0,,,,,https://corona.purbalinggakab.go.id/
