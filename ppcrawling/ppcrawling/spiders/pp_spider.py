@@ -160,7 +160,6 @@ class SemarangSpider(scrapy.Spider):
         t_pdp = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()')[1].extract()
         total_pdp = t_pdp.strip('\r\n ')
-        # cannot crawl date_update
         total_positif = None
         positif_sembuh = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract_first()
@@ -198,3 +197,144 @@ class SemarangSpider(scrapy.Spider):
             'total_ppdt': total_ppdt,
             'source_link': source_link,
         }
+
+
+# this site is using a fuckin' ReactJS
+class PurbalinggaSpider(scrapy.Spider):
+    name = 'purbalingga'
+    start_urls = [
+        "https://corona.purbalinggakab.go.id/"
+    ]
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kabupaten'
+        user_pic = 'Alfie Qashwa'
+        date_update = datetime.now().strftime('%d/%m/%Y')
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Purbalingga'
+        kecamatan = None
+        kelurahan = None
+        alamat = None
+        t_odp = response.xpath(
+            '//*[@id="et-boc"]/div/div[3]/div[2]/div[1]/div[5]/div/ul/li[2]/text()').extract_first()
+        total_odp = t_odp.split()[3]
+        t_pdp = response.xpath(
+            '//*[@id="et-boc"]/div/div[3]/div[2]/div[2]/div[4]/div/ul/li[3]/b[2]/text()').extract_first()
+        total_pdp = t_pdp.split()[2]
+        t_positif = response.xpath(
+            '//*[@id="et-boc"]/div/div[3]/div[2]/div[3]/div[5]/div/ul/li[3]/strong/text()').extract_first()
+        total_positif = t_positif.split()[4]
+        p_sembuh = response.xpath(
+            '//*[@id="et-boc"]/div/div[3]/div[2]/div[3]/div[5]/div/ul/li[1]/b[1]/text()').extract_first()
+        positif_sembuh = p_sembuh.split()[2]
+        positif_isolasi = None
+        p_meninggal = response.xpath(
+            '//*[@id="et-boc"]/div/div[3]/div[2]/div[3]/div[5]/div/ul/li[2]/b[1]/text()').extract_first()
+        positif_meninggal = p_meninggal.split()[2]
+        p_int_dirawat = int(total_positif) - \
+            (int(positif_sembuh) + int(positif_meninggal))
+        positif_dirawat = str(p_int_dirawat)
+        total_otg = None
+        odr_total = None
+        total_pp = None
+        total_ppdt = None
+        source_link = 'https://corona.purbalinggakab.go.id/'
+
+        yield {
+            'scrape_date': scrape_date,
+            'types': types,
+            'user_pic': user_pic,
+            'date_update': date_update,
+            'provinsi': provinsi,
+            'kabkot': kabkot,
+            'kecamatan': kecamatan,
+            'kelurahan': kelurahan,
+            'alamat': alamat,
+            'total_odp': total_odp,
+            'total_pdp': total_pdp,
+            'total_positif': total_positif,
+            'positif_sembuh': positif_sembuh,
+            'positif_dirawat': positif_dirawat,
+            'positif_isolasi': positif_isolasi,
+            'positif_meninggal': positif_meninggal,
+            'total_otg': total_otg,
+            'odr_total': odr_total,
+            'total_pp': total_pp,
+            'total_ppdt': total_ppdt,
+            'source_link': source_link,
+        }
+
+# Kecamatan
+
+
+class KudusSpider(scrapy.Spider):
+    name = "kudus"
+    start_urls = [
+        "https://corona.kuduskab.go.id/"
+    ]
+    # convert months string into number
+    months = dict(Januari='1', Februari='2', Maret='3', April='4', Mei='5', Juni='6',
+                  Juli='7', Agustus='8', September='9', Oktober='10', November='11', Desember='12')
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = "kecamatan"
+        user_pic = "Alfie Qashwa"
+        crawl_date = response.xpath(
+            '//*[@id="monitoring"]/div/div/div/div/div[1]/span/text()').extract_first()
+        day = crawl_date[18:20]
+        month = crawl_date[21:30]
+        year = crawl_date[31:35]
+        date_update = day + '/' + self.months[month] + '/' + year
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Kudus'
+        kecamatan = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[1]/text()').extract()
+        kelurahan = ''
+        alamat = ''
+        total_odp = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[3]/text()').extract()
+        total_pdp = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[4]/text()').extract()
+        total_positif = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[5]/text()').extract()
+        positif_dirawat = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[6]/text()').extract()
+        positif_isolasi = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[7]/text()').extract()
+        positif_sembuh = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[8]/text()').extract()
+        positif_meninggal = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[9]/text()').extract()
+        total_otg = ''
+        odr_total = response.xpath(
+            '//*[@id="about"]/div/div/div/div/div/div/span/div/div/table/tbody/tr/td[2]/text()').extract()
+        total_pp = ''
+        total_ppdt = ''
+        source_link = 'https://corona.kuduskab.go.id/'
+
+        for i in range(len(kecamatan)):
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan[i],
+                'kelurahan': kelurahan,
+                'alamat': alamat,
+                'total_odp': total_odp[i],
+                'total_pdp': total_pdp[i],
+                'total_positif': total_positif[i],
+                'positif_sembuh': positif_sembuh[i],
+                'positif_dirawat': positif_dirawat[i],
+                'positif_isolasi': positif_isolasi[i],
+                'positif_meninggal': positif_meninggal[i],
+                'total_otg': total_otg,
+                'odr_total': odr_total[i],
+                'total_pp': total_pp,
+                'total_ppdt': total_ppdt,
+                'source_link': source_link,
+            }
