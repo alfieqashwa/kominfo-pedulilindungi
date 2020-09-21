@@ -212,8 +212,8 @@ class KudusSpider(scrapy.Spider):
         "https://corona.kuduskab.go.id/"
     ]
     # convert months string into number
-    months = dict(Januari='1', Februari='2', Maret='3', April='4', Mei='5', Juni='6',
-                  Juli='7', Agustus='8', September='9', Oktober='10', November='11', Desember='12')
+    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
+                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
 
     def parse(self, response):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
@@ -289,7 +289,7 @@ class CilacapSpider(scrapy.Spider):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
         types = 'kecamatan'
         user_pic = 'Alfie Qashwa'
-        date_update = datetime.now().strftime("%d/%m/%Y")
+        date_update = datetime.now().strftime("%Y-%m-%d")
         provinsi = 'Jawa Tengah'
         kabkot = 'Cilacap'
         kecamatan = response.xpath(
@@ -347,8 +347,8 @@ class MagelangSpider(scrapy.Spider):
         "https://infocorona.magelangkab.go.id/"
     ]
 
-    months = dict(Januari='1', Februari='2', Maret='3', April='4', Mei='5', Juni='6',
-                  Juli='7', Agustus='8', September='9', Oktober='10', November='11', Desember='12')
+    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
+                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
 
     def parse(self, response):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
@@ -359,8 +359,8 @@ class MagelangSpider(scrapy.Spider):
         # s**t dirty code
         day = crawl_date[9:11]
         month = crawl_date[12:21]
-        year = crawl_date[22:27]
-        date_update = day + '/' + self.months[month] + '/' + year
+        year = crawl_date[22:26]
+        date_update = year + '-' + self.months[month] + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Magelang'
         kecamatan = response.xpath(
@@ -421,7 +421,7 @@ class KebumenSpider(scrapy.Spider):
         scrape_date = datetime.now().strftime('%Y-%m-%d')
         types = 'kecamatan'
         user_pic = 'Alfie Qashwa'
-        date_update = datetime.now().strftime('%d/%m/%Y')
+        date_update = datetime.now().strftime('%Y-%m-%d')
         provinsi = 'Jawa Tengah'
         kabkot = 'Kebumen'
         kecamatan = response.xpath(
@@ -492,7 +492,7 @@ class PurbalinggaSpider(scrapy.Spider):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
         types = 'kecamatan'
         user_pic = 'Alfie Qashwa'
-        date_update = datetime.now().strftime("%d/%m/%Y")
+        date_update = datetime.now().strftime("%Y-%m-%d")
         provinsi = 'Jawa Tengah'
         kabkot = 'Purbalingga'
         source_link = 'https://corona.purbalinggakab.go.id/'
