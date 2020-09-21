@@ -13,13 +13,17 @@ class BoyolaliSpider(scrapy.Spider):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
         types = 'kabupaten'
         user_pic = 'Alfie Qashwa'
-        date_update = response.xpath(
-            '//*[@id="why-us"]/div[1]/header/p/text()').extract_first().split()[5].replace('-', '/')
+        crawl_date = response.xpath(
+            '//*[@id="why-us"]/div[1]/header/p/text()').extract_first().split()[5]
+        year = crawl_date[-4:]
+        month = crawl_date[3:5]
+        day = crawl_date[:2]
+        date_update = year + '-' + month + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Boyolali'
-        kecamatan = None
-        kelurahan = None
-        alamat = None
+        kecamatan = ''
+        kelurahan = ''
+        alamat = ''
         total_odp = response.xpath(
             '//*[@id="why-us"]/div[2]/div/div[2]/div/span/text()').extract_first()
         total_pdp = response.xpath(
@@ -34,11 +38,11 @@ class BoyolaliSpider(scrapy.Spider):
             '//*[@id="why-us"]/div[2]/div/div[1]/div[1]/div[2]/div[2]/span/text()').extract_first()
         positif_meninggal = response.xpath(
             '//*[@id="why-us"]/div[2]/div/div[1]/div[1]/div[2]/div[4]/span/text()').extract_first()
-        total_otg = None
+        total_otg = ''
         odr_total = response.xpath(
             '//*[@id="why-us"]/div[2]/div/div[5]/div[1]/span/text()').extract_first()
-        total_pp = None
-        total_ppdt = None
+        total_pp = ''
+        total_ppdt = ''
         source_link = 'https://covid19.boyolali.go.id/'
 
         yield {
@@ -94,20 +98,20 @@ class GroboganSpider(scrapy.Spider):
         date_update = datetime.now().strftime("%d/%m/%Y")
         provinsi = 'Jawa Tengah'
         kabkot = 'Grobogan'
-        kecamatan = None
-        kelurahan = None
-        alamat = None
+        kecamatan = ''
+        kelurahan = ''
+        alamat = ''
         total_odp = data['odp']
         total_pdp = data['pdp']
         total_positif = data['positif']
-        positif_sembuh = None
-        positif_dirawat = None
-        positif_isolasi = None
+        positif_sembuh = ''
+        positif_dirawat = ''
+        positif_isolasi = ''
         positif_meninggal = data['dead']
-        total_otg = None
-        odr_total = None
-        total_pp = None
-        total_ppdt = None
+        total_otg = ''
+        odr_total = ''
+        total_pp = ''
+        total_ppdt = ''
         source_link = 'https://corona.grobogan.go.id/'
 
         yield {
@@ -152,26 +156,26 @@ class SemarangSpider(scrapy.Spider):
         # dupl_kec = response.xpath(
         #     '//*[@id="example1"]/tbody/tr/td[2]/text()').extract()
         # kecamatan = list(dict.fromkeys(dupl_kec))
-        kecamatan = None
-        kelurahan = None
-        alamat = None
+        kecamatan = ''
+        kelurahan = ''
+        alamat = ''
         total_odp = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[5]/div/div/div[1]/div[2]/div/text()').extract_first()
         t_pdp = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()')[1].extract()
         total_pdp = t_pdp.strip('\r\n ')
-        total_positif = None
+        total_positif = ''
         positif_sembuh = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract_first()
         positif_dirawat = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/text()').extract_first()
-        positif_isolasi = None
+        positif_isolasi = ''
         positif_meninggal = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]/div[2]/div/text()').extract_first()
-        total_otg = None
-        odr_total = None
-        total_pp = None
-        total_ppdt = None
+        total_otg = ''
+        odr_total = ''
+        total_pp = ''
+        total_ppdt = ''
         source_link = 'https://siagacorona.semarangkota.go.id/halaman/odppdpv2'
 
         yield {
