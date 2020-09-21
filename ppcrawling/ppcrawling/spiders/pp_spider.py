@@ -95,7 +95,7 @@ class GroboganSpider(scrapy.Spider):
         types = 'kabupaten'
         user_pic = 'Alfie Qashwa'
         # they will fetch the datas everyday automatically as data-fetching habits
-        date_update = datetime.now().strftime("%d/%m/%Y")
+        date_update = datetime.now().strftime("%Y-%m-%d")
         provinsi = 'Jawa Tengah'
         kabkot = 'Grobogan'
         kecamatan = ''
@@ -150,7 +150,7 @@ class SemarangSpider(scrapy.Spider):
         types = 'kabupaten'
         user_pic = 'Alfie Qashwa'
         # cannot crawl date_update
-        date_update = datetime.now().strftime('%d/%m/%Y')
+        date_update = datetime.now().strftime('%Y-%m-%d')
         provinsi = 'Jawa Tengah'
         kabkot = 'Semarang'
         # dupl_kec = response.xpath(
