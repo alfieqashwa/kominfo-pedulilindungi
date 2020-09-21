@@ -225,7 +225,7 @@ class KudusSpider(scrapy.Spider):
         day = crawl_date[18:20]
         month = crawl_date[21:30]
         year = crawl_date[31:35]
-        date_update = day + '/' + self.months[month] + '/' + year
+        date_update = year + '-' + self.months[month] + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Kudus'
         kecamatan = response.xpath(
