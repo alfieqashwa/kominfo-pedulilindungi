@@ -261,7 +261,7 @@ class KudusSpider(scrapy.Spider):
                 'date_update': date_update,
                 'provinsi': provinsi,
                 'kabkot': kabkot,
-                'kecamatan': kecamatan[q],
+                'kecamatan': kecamatan[q].capitalize(),
                 'kelurahan': kelurahan,
                 'alamat': alamat,
                 'total_odp': total_odp[q],
