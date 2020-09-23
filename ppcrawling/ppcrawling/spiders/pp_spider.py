@@ -620,9 +620,6 @@ class TegalSpider(scrapy.Spider):
                 'kelurahan': kelurahan,
                 'alamat': alamat,
                 'total_odp': str(total_odp),
-
-                ############# // TODOS //#############
-
                 'total_pdp': str(total_pdp),
                 'total_positif': str(total_positif),
                 'positif_sembuh': str(positif_sembuh),
@@ -634,4 +631,125 @@ class TegalSpider(scrapy.Spider):
                 'total_pp': '',
                 'total_ppdt': '',
                 'source_link': source_link,
+            }
+
+
+class KotaMagelangSpider(scrapy.Spider):
+    name = 'kotamagelang'
+    start_urls = [
+        'https://covid19.magelangkota.go.id'
+    ]
+
+    magelang_selatan = ["Jurangombo Selatan", "Jurangombo Utara",
+                        "Magersari", "Rejowinangun Selatan", "Tidar Selatan", "Tidar Utara"]
+    magelang_tengah = ["Cacaban", "Gelangan", "Kemirirejo",
+                       "Magelang", "Panjang", "Rejowinangun Utara"]
+    magelang_utara = ["Kedungsari", "Kramat Selatan",
+                      "Kramat Utara", "Potrobangsan", "Wates"]
+
+    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
+                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kelurahan'
+        user_pic = 'Alfie Qashwa'
+        raw_date = response.xpath(
+            '//*[@id="update"]/div/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/p[1]/span/text()').get()
+        day = raw_date[9:11]
+        # because its crawl SEPTEMBER
+        month = raw_date[12:21].capitalize()
+        year = raw_date[22:26]
+        date_update = year + '-' + self.months[month] + '-' + day
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Kota Magelang'
+        list_kelurahan = ['Jurangombo Utara', 'Jurangombo Selatan', 'Magersari', 'Rejowinangun Selatan', 'Tidar Utara', 'Tidar Selatan', 'Cacaban',
+                          'Gelangan', 'Kemirirejo', 'Magelang', 'Panjang', 'Rejowinangun Utara', 'Kedungsari', 'Kramat Selatan', 'Kramat Utara', 'Potrobangsan', 'Wates']
+
+        suspek_ditemukan = response.xpath(
+            '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/text()').getall()
+        suspek_dirawat = response.xpath(
+            '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[3]/div/div[2]/div/div/div/p/text()').getall()
+        suspek_isolasi = response.xpath(
+            '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[4]/div/div[2]/div/div/div/p/text()').getall()
+        suspek_discard_sembuh = response.xpath(
+            '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[5]/div/div[2]/div/div/div/p/text()').getall()
+        suspek_discard_meninggal = response.xpath(
+            '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[6]/div/div[2]/div/div/div/p/text()').getall()
+
+        list_odp = [
+            int(suspek_ditemukan[0]) + int(suspek_dirawat[0]) + int(suspek_isolasi[0]) + int(
+                suspek_discard_sembuh[0]) + int(suspek_discard_meninggal[0]),
+            int(suspek_ditemukan[1]) + int(suspek_dirawat[1]) + int(suspek_isolasi[1]) + int(
+                suspek_discard_sembuh[1]) + int(suspek_discard_meninggal[1]),
+            int(suspek_ditemukan[2]) + int(suspek_dirawat[2]) + int(suspek_isolasi[2]) + int(
+                suspek_discard_sembuh[2]) + int(suspek_discard_meninggal[2]),
+            int(suspek_ditemukan[3]) + int(suspek_dirawat[3]) + int(suspek_isolasi[3]) + int(
+                suspek_discard_sembuh[3]) + int(suspek_discard_meninggal[3]),
+            int(suspek_ditemukan[4]) + int(suspek_dirawat[4]) + int(suspek_isolasi[4]) + int(
+                suspek_discard_sembuh[4]) + int(suspek_discard_meninggal[4]),
+            int(suspek_ditemukan[5]) + int(suspek_dirawat[5]) + int(suspek_isolasi[5]) + int(
+                suspek_discard_sembuh[5]) + int(suspek_discard_meninggal[5]),
+            int(suspek_ditemukan[6]) + int(suspek_dirawat[6]) + int(suspek_isolasi[6]) + int(
+                suspek_discard_sembuh[6]) + int(suspek_discard_meninggal[6]),
+            int(suspek_ditemukan[7]) + int(suspek_dirawat[7]) + int(suspek_isolasi[7]) + int(
+                suspek_discard_sembuh[7]) + int(suspek_discard_meninggal[7]),
+            int(suspek_ditemukan[8]) + int(suspek_dirawat[8]) + int(suspek_isolasi[8]) + int(
+                suspek_discard_sembuh[8]) + int(suspek_discard_meninggal[8]),
+            int(suspek_ditemukan[9]) + int(suspek_dirawat[9]) + int(suspek_isolasi[9]) + int(
+                suspek_discard_sembuh[9]) + int(suspek_discard_meninggal[9]),
+            int(suspek_ditemukan[10]) + int(suspek_dirawat[10]) + int(suspek_isolasi[10]) + int(
+                suspek_discard_sembuh[10]) + int(suspek_discard_meninggal[10]),
+            int(suspek_ditemukan[11]) + int(suspek_dirawat[11]) + int(suspek_isolasi[11]) + int(
+                suspek_discard_sembuh[11]) + int(suspek_discard_meninggal[11]),
+            int(suspek_ditemukan[12]) + int(suspek_dirawat[12]) + int(suspek_isolasi[12]) + int(
+                suspek_discard_sembuh[12]) + int(suspek_discard_meninggal[12]),
+            int(suspek_ditemukan[13]) + int(suspek_dirawat[13]) + int(suspek_isolasi[13]) + int(
+                suspek_discard_sembuh[13]) + int(suspek_discard_meninggal[13]),
+            int(suspek_ditemukan[14]) + int(suspek_dirawat[14]) + int(suspek_isolasi[14]) + int(
+                suspek_discard_sembuh[14]) + int(suspek_discard_meninggal[14]),
+            int(suspek_ditemukan[15]) + int(suspek_dirawat[15]) + int(suspek_isolasi[15]) + int(
+                suspek_discard_sembuh[15]) + int(suspek_discard_meninggal[15]),
+            int(suspek_ditemukan[16]) + int(suspek_dirawat[16]) + int(suspek_isolasi[16]) + int(
+                suspek_discard_sembuh[16]) + int(suspek_discard_meninggal[16]),
+
+        ]
+
+        for q in range(len(list_kelurahan)):
+            kelurahan = list_kelurahan[q]
+
+            if kelurahan in self.magelang_selatan:
+                kecamatan = 'Magelang Selatan'
+            elif kelurahan in self.magelang_tengah:
+                kecamatan = 'Magelang Tengah'
+            elif kelurahan in self.magelang_utara:
+                kecamatan = 'Magelang Utara'
+            else:
+                kecamatan = ''
+
+            total_odp = list_odp
+            # total_pdp =
+            # total_positif =
+            # positif_sembuh =
+            # positif_dirawat =
+            # positif_isolasi =
+            # positif_meninggal =
+            # total_otg =
+            # odr_total =
+            # total_pp =
+            # total_ppdt =
+
+            source_link = 'https://covid19.magelangkota.go.id/'
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan,
+                'kelurahan': kelurahan,
+                'alamat': '',
+                'total_odp': str(total_odp)[q],
+                'source_link': source_link
             }
