@@ -677,7 +677,7 @@ class KotaMagelangSpider(scrapy.Spider):
         suspek_discard_meninggal = response.xpath(
             '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[6]/div/div[2]/div/div/div/p/text()').getall()
 
-        list_odp = [
+        list_odp = (
             int(suspek_ditemukan[0]) + int(suspek_dirawat[0]) + int(suspek_isolasi[0]) + int(
                 suspek_discard_sembuh[0]) + int(suspek_discard_meninggal[0]),
             int(suspek_ditemukan[1]) + int(suspek_dirawat[1]) + int(suspek_isolasi[1]) + int(
@@ -712,8 +712,7 @@ class KotaMagelangSpider(scrapy.Spider):
                 suspek_discard_sembuh[15]) + int(suspek_discard_meninggal[15]),
             int(suspek_ditemukan[16]) + int(suspek_dirawat[16]) + int(suspek_isolasi[16]) + int(
                 suspek_discard_sembuh[16]) + int(suspek_discard_meninggal[16]),
-
-        ]
+        )
 
         for q in range(len(list_kelurahan)):
             kelurahan = list_kelurahan[q]
