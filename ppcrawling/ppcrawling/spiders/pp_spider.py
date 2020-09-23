@@ -585,6 +585,7 @@ class TegalSpider(scrapy.Spider):
 
         for data in datas["response"]["data"]:
             kelurahan = data["nama_kelurahan"]
+
             if kelurahan in self.margadana:
                 kecamatan = 'Marganda'
             elif kelurahan in self.tegalbarat:
@@ -595,6 +596,19 @@ class TegalSpider(scrapy.Spider):
                 kecamatan = 'Tegal Timur'
             else:
                 kecamatan = ''
+
+            alamat = data["alamat_kelurahan"]
+            total_odp = int(data["ttl_odp_isolasi_mandiri"]) + int(
+                data["ttl_odp_selesai_isolasi"]) + int(data["ttl_odp_meninggal"])
+            total_pdp = int(data["ttl_pdp_dirawat"]) + \
+                int(data["ttl_pdp_sembuh"]) + int(data["ttl_pdp_meninggal"])
+
+            positif_sembuh = int(data["ttl_positif_sembuh"])
+            positif_dirawat = int(data["ttl_positif_dirawat"])
+            positif_isolasi = int(data["ttl_positif_isolasi_mandiri"])
+            positif_meninggal = int(data["ttl_positif_meninggal"])
+            total_positif = positif_sembuh + positif_dirawat + \
+                positif_isolasi + positif_meninggal
             yield {
                 'scrape_date': scrape_date,
                 'types': types,
@@ -604,20 +618,20 @@ class TegalSpider(scrapy.Spider):
                 'kabkot': kabkot,
                 'kecamatan': kecamatan,
                 'kelurahan': kelurahan,
+                'alamat': alamat,
+                'total_odp': str(total_odp),
 
                 ############# // TODOS //#############
 
-                # 'alamat': '',
-                # 'total_odp':,
-                # 'total_pdp':,
-                # 'total_positif':,
-                # 'positif_sembuh':,
-                # 'positif_dirawat':,
-                # 'positif_isolasi': '',
-                # 'positif_meninggal':,
-                # 'total_otg': '',
-                # 'odr_total': '',
-                # 'total_pp': '',
-                # 'total_ppdt': '',
+                'total_pdp': str(total_pdp),
+                'total_positif': str(total_positif),
+                'positif_sembuh': str(positif_sembuh),
+                'positif_dirawat': str(positif_dirawat),
+                'positif_isolasi': str(positif_isolasi),
+                'positif_meninggal': str(positif_meninggal),
+                'total_otg': '',
+                'odr_total': '',
+                'total_pp': '',
+                'total_ppdt': '',
                 'source_link': source_link,
             }
