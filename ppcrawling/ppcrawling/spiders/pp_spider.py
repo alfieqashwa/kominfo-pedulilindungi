@@ -779,3 +779,134 @@ class KendalSpider(scrapy.Spider):
                 'total_ppdt': '',
                 'source_link': source_link,
             }
+
+
+class BanjarnegaraSpider(scrapy.Spider):
+    name = "banjarnegara"
+    start_urls = [
+        "http://corona.banjarnegarakab.go.id/"
+    ]
+
+    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
+                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kelurahan'
+        user_pic = 'Alfie Qashwa'
+        crawl_date = response.css(
+            '#sebaran .mt-2::text').re(r': (\w+) (\w+) (\w+)')
+        day = crawl_date[0]
+        month = self.months[crawl_date[1]]
+        year = crawl_date[2]
+        date_update = year + '-' + month + '-' + day
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Banjarnegara'
+        list_kecamatan = response.xpath(
+            '//*[@id="accordion1"]/td[2]/text()').getall()
+        banjarmangu = response.css(
+            '#detail1 .align-middle:nth-child(2)::text')[2:].getall()
+        banjarnegara = response.css(
+            '#detail11 .align-middle:nth-child(2)::text')[2:].getall()
+        batur = response.css(
+            '#detail6 .align-middle:nth-child(2)::text')[2:].getall()
+        bawang = response.css(
+            '#detail12 .align-middle:nth-child(2)::text')[2:].getall()
+        kalibening = response.css(
+            '#detail4 .align-middle:nth-child(2)::text')[2:].getall()
+        karangkobar = response.css(
+            '#detail3 .align-middle:nth-child(2)::text')[2:].getall()
+        madukara = response.css(
+            '#detail10 .align-middle:nth-child(2)::text')[2:].getall()
+        mandiraja = response.css(
+            '#detail16 .align-middle:nth-child(2)::text')[2:].getall()
+        pagedongan = response.css(
+            '#detail23 .align-middle:nth-child(2)::text')[2:].getall()
+        pagentan = response.css(
+            '#detail8 .align-middle:nth-child(2)::text')[2:].getall()
+        pandanarum = response.css(
+            '#detail19 .align-middle:nth-child(2)::text')[2:].getall()
+        pejawaran = response.css(
+            '#detail7 .align-middle:nth-child(2)::text')[2:].getall()
+        punggelan = response.css(
+            '#detail18 .align-middle:nth-child(2)::text')[2:].getall()
+        purwanegara = response.css(
+            '#detail13 .align-middle:nth-child(2)::text')[2:].getall()
+        purwarejaklampok = response.css(
+            '#detail15 .align-middle:nth-child(2)::text')[2:].getall()
+        rakit = response.css(
+            '#detail17 .align-middle:nth-child(2)::text')[2:].getall()
+        sigaluh = response.css(
+            '#detail9 .align-middle:nth-child(2)::text')[2:].getall()
+        susukan = response.css(
+            '#detail14 .align-middle:nth-child(2)::text')[2:].getall()
+        wanadadi = response.css(
+            '#detail2 .align-middle:nth-child(2)::text')[2:].getall()
+        wanayasa = response.css(
+            '#detail5 .align-middle:nth-child(2)::text')[2:].getall()
+
+        list_kelurahan = []
+        list_kelurahan.extend(banjarmangu+banjarnegara+batur+bawang+kalibening+karangkobar+madukara+mandiraja+pagedongan +
+                              pagentan+pandanarum+pejawaran+punggelan+purwanegara +
+                              purwarejaklampok+rakit+sigaluh+susukan+wanadadi+wanayasa)
+        kecamatan = ''
+        source_link = 'http://corona.banjarnegarakab.go.id/'
+
+        for q in range(len(list_kelurahan)):
+            kelurahan = list_kelurahan[q]
+
+            # why there is no switch-case in Python?!
+            if kelurahan in banjarmangu:
+                kecamatan = list_kecamatan[0]
+            elif kelurahan in banjarnegara:
+                kecamatan = list_kecamatan[1]
+            elif kelurahan in batur:
+                kecamatan = list_kecamatan[2]
+            elif kelurahan in bawang:
+                kecamatan = list_kecamatan[3]
+            elif kelurahan in kalibening:
+                kecamatan = list_kecamatan[4]
+            elif kelurahan in karangkobar:
+                kecamatan = list_kecamatan[5]
+            elif kelurahan in madukara:
+                kecamatan = list_kecamatan[6]
+            elif kelurahan in mandiraja:
+                kecamatan = list_kecamatan[7]
+            elif kelurahan in pagedongan:
+                kecamatan = list_kecamatan[8]
+            elif kelurahan in pagentan:
+                kecamatan = list_kecamatan[9]
+            elif kelurahan in pandanarum:
+                kecamatan = list_kecamatan[10]
+            elif kelurahan in pejawaran:
+                kecamatan = list_kecamatan[11]
+            elif kelurahan in punggelan:
+                kecamatan = list_kecamatan[12]
+            elif kelurahan in purwanegara:
+                kecamatan = list_kecamatan[13]
+            elif kelurahan in purwarejaklampok:
+                kecamatan = list_kecamatan[14]
+            elif kelurahan in rakit:
+                kecamatan = list_kecamatan[15]
+            elif kelurahan in sigaluh:
+                kecamatan = list_kecamatan[16]
+            elif kelurahan in susukan:
+                kecamatan = list_kecamatan[17]
+            elif kelurahan in wanadadi:
+                kecamatan = list_kecamatan[18]
+            elif kelurahan in wanayasa:
+                kecamatan = list_kecamatan[19]
+            else:
+                kecamatan = ''
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan.strip().capitalize(),
+                'kelurahan': kelurahan.strip().capitalize(),
+                'alamat': '',
+                'source_link': source_link
+            }
