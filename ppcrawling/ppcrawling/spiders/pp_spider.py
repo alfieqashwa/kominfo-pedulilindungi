@@ -849,7 +849,221 @@ class BanjarnegaraSpider(scrapy.Spider):
         list_kelurahan.extend(banjarmangu+banjarnegara+batur+bawang+kalibening+karangkobar+madukara+mandiraja+pagedongan +
                               pagentan+pandanarum+pejawaran+punggelan+purwanegara +
                               purwarejaklampok+rakit+sigaluh+susukan+wanadadi+wanayasa)
-        kecamatan = ''
+
+        odp_banjarmangu = response.css(
+            '#detail1 .align-middle:nth-child(11)::text').getall()
+        odp_banjarnegara = response.css(
+            '#detail11 .align-middle:nth-child(11)::text').getall()
+        odp_batur = response.css(
+            '#detail6 .align-middle:nth-child(11)::text').getall()
+        odp_bawang = response.css(
+            '#detail12 .align-middle:nth-child(11)::text').getall()
+        odp_kalibening = response.css(
+            '#detail4 .align-middle:nth-child(11)::text').getall()
+        odp_karangkobar = response.css(
+            '#detail3 .align-middle:nth-child(11)::text').getall()
+        odp_madukara = response.css(
+            '#detail10 .align-middle:nth-child(11)::text').getall()
+        odp_mandiraja = response.css(
+            '#detail16 .align-middle:nth-child(11)::text').getall()
+        odp_pagedongan = response.css(
+            '#detail23 .align-middle:nth-child(11)::text').getall()
+        odp_pagentan = response.css(
+            '#detail8 .align-middle:nth-child(11)::text').getall()
+        odp_pandanarum = response.css(
+            '#detail19 .align-middle:nth-child(11)::text').getall()
+        odp_pejawaran = response.css(
+            '#detail7 .align-middle:nth-child(11)::text').getall()
+        odp_punggelan = response.css(
+            '#detail18 .align-middle:nth-child(11)::text').getall()
+        odp_purwanegara = response.css(
+            '#detail13 .align-middle:nth-child(11)::text').getall()
+        odp_purwarejaklampok = response.css(
+            '#detail15 .align-middle:nth-child(11)::text').getall()
+        odp_rakit = response.css(
+            '#detail17 .align-middle:nth-child(11)::text').getall()
+        odp_sigaluh = response.css(
+            '#detail9 .align-middle:nth-child(11)::text').getall()
+        odp_susukan = response.css(
+            '#detail14 .align-middle:nth-child(11)::text').getall()
+        odp_wanadadi = response.css(
+            '#detail2 .align-middle:nth-child(11)::text').getall()
+        odp_wanayasa = response.css(
+            '#detail5 .align-middle:nth-child(11)::text').getall()
+
+        list_total_odp = odp_banjarmangu+odp_banjarnegara+odp_batur+odp_bawang+odp_kalibening+odp_karangkobar+odp_madukara+odp_mandiraja+odp_pagedongan + \
+            odp_pagentan+odp_pandanarum+odp_pejawaran+odp_punggelan+odp_purwanegara + \
+            odp_purwarejaklampok+odp_rakit+odp_sigaluh+odp_susukan+odp_wanadadi+odp_wanayasa
+
+        # pdp_dirawat_banjarmangu = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_banjarnegara = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_batur = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_bawang = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_kalibening = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_karangkobar = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_madukara = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_mandiraja = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_pagedongan = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_pagentan = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_pandanarum = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_pejawaran = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_punggelan = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_purwanegara = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_purwarejaklampok = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_rakit = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_sigaluh = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_susukan = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_wanadadi = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+        # pdp_dirawat_wanayasa = response.css(
+        #     '#detail1 .align-middle:nth-child(3)::text')[2:].getall()
+
+        # pdp_sembuh_banjarmangu = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_banjarnegara = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_batur = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_bawang = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_kalibening = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_karangkobar = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_madukara = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_mandiraja = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_pagedongan = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_pagentan = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_pandanarum = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_pejawaran = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_punggelan = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_purwanegara = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_purwarejaklampok = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_rakit = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_sigaluh = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_susukan = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_wanadadi = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+        # pdp_sembuh_wanayasa = response.css(
+        #     '#detail1 .align-middle:nth-child(4)::text')[2:].getall()
+
+        # pdp_meninggal_banjarmangu = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_banjarnegara = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_batur = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_bawang = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_kalibening = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_karangkobar = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_madukara = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_mandiraja = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_pagedongan = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_pagentan = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_pandanarum = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_pejawaran = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_punggelan = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_purwanegara = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_purwarejaklampok = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_rakit = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_sigaluh = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_susukan = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_wanadadi = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+        # pdp_meninggal_wanayasa = response.css(
+        #     '#detail1 .align-middle:nth-child(5)::text')[2:].getall()
+
+        # total_pdp_banjarmangu = int(
+        #     pdp_dirawat_banjarmangu)+int(pdp_sembuh_banjarmangu)+int(pdp_meninggal_banjarmangu)
+        # total_pdp_banjarnegara = int(
+        #     pdp_dirawat_banjarnegara)+int(pdp_sembuh_banjarnegara)+int(pdp_meninggal_banjarnegara)
+        # total_pdp_batur = int(
+        #     pdp_dirawat_batur)+int(pdp_sembuh_batur)+int(pdp_meninggal_batur)
+        # total_pdp_bawang = int(
+        #     pdp_dirawat_bawang)+int(pdp_sembuh_bawang)+int(pdp_meninggal_bawang)
+        # total_pdp_kalibening = int(
+        #     pdp_dirawat_kalibening)+int(pdp_sembuh_kalibening)+int(pdp_meninggal_kalibening)
+        # total_pdp_karangkobar = int(
+        #     pdp_dirawat_karangkobar)+int(pdp_sembuh_karangkobar)+int(pdp_meninggal_karangkobar)
+        # total_pdp_madukara = int(
+        #     pdp_dirawat_madukara)+int(pdp_sembuh_madukara)+int(pdp_meninggal_madukara)
+        # total_pdp_mandiraja = int(
+        #     pdp_dirawat_mandiraja)+int(pdp_sembuh_mandiraja)+int(pdp_meninggal_mandiraja)
+        # total_pdp_pagedongan = int(
+        #     pdp_dirawat_pagedongan)+int(pdp_sembuh_pagedongan)+int(pdp_meninggal_pagedongan)
+        # total_pdp_pagentan = int(
+        #     pdp_dirawat_pagentan)+int(pdp_sembuh_pagentan)+int(pdp_meninggal_pagentan)
+        # total_pdp_pandanarum = int(
+        #     pdp_dirawat_pandanarum)+int(pdp_sembuh_pandanarum)+int(pdp_meninggal_pandanarum)
+        # total_pdp_pejawaran = int(
+        #     pdp_dirawat_pejawaran)+int(pdp_sembuh_pejawaran)+int(pdp_meninggal_pejawaran)
+        # total_pdp_punggelan = int(
+        #     pdp_dirawat_punggelan)+int(pdp_sembuh_punggelan)+int(pdp_meninggal_punggelan)
+        # total_pdp_purwanegara = int(
+        #     pdp_dirawat_purwanegara)+int(pdp_sembuh_purwanegara)+int(pdp_meninggal_purwanegara)
+        # total_pdp_purwarejaklampok = int(
+        #     pdp_dirawat_purwarejaklampok)+int(pdp_sembuh_purwarejaklampok)+int(pdp_meninggal_purwarejaklampok)
+        # total_pdp_rakit = int(
+        #     pdp_dirawat_rakit)+int(pdp_sembuh_rakit)+int(pdp_meninggal_rakit)
+        # total_pdp_sigaluh = int(
+        #     pdp_dirawat_sigaluh)+int(pdp_sembuh_sigaluh)+int(pdp_meninggal_sigaluh)
+        # total_pdp_susukan = int(
+        #     pdp_dirawat_susukan)+int(pdp_sembuh_susukan)+int(pdp_meninggal_susukan)
+        # total_pdp_wanadadi = int(
+        #     pdp_dirawat_wanadadi)+int(pdp_sembuh_wanadadi)+int(pdp_meninggal_wanadadi)
+        # total_pdp_wanayasa = int(
+        #     pdp_dirawat_wanayasa)+int(pdp_sembuh_wanayasa)+int(pdp_meninggal_wanayasa)
+
+        # list_total_pdp = total_pdp_banjarmangu+total_pdp_banjarnegara+total_pdp_batur + \
+        #     total_pdp_bawang+total_pdp_kalibening+total_pdp_karangkobar+total_pdp_madukara+total_pdp_mandiraja+total_pdp_pagedongan+total_pdp_pagentan+total_pdp_pandanarum + \
+        #     total_pdp_pejawaran+total_pdp_punggelan+total_pdp_purwanegara+total_pdp_purwarejaklampok + \
+        #     total_pdp_rakit+total_pdp_sigaluh+total_pdp_susukan + \
+        #     total_pdp_wanadadi+total_pdp_wanayasa
         source_link = 'http://corona.banjarnegarakab.go.id/'
 
         for q in range(len(list_kelurahan)):
@@ -898,6 +1112,9 @@ class BanjarnegaraSpider(scrapy.Spider):
                 kecamatan = list_kecamatan[19]
             else:
                 kecamatan = ''
+
+            total_odp = list_total_odp[q]
+            # total_pdp = list_total_pdp[q]
             yield {
                 'scrape_date': scrape_date,
                 'types': types,
@@ -908,5 +1125,7 @@ class BanjarnegaraSpider(scrapy.Spider):
                 'kecamatan': kecamatan.strip().capitalize(),
                 'kelurahan': kelurahan.strip().capitalize(),
                 'alamat': '',
+                'total_odp': total_odp,
+                'total_pdp': '',
                 'source_link': source_link
             }
