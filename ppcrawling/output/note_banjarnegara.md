@@ -380,27 +380,6 @@ response.css('#detail5 .align-middle:nth-child(10)::text')[2:].getall()
 total_odp:
 response.css('#detail5 .align-middle:nth-child(11)::text')[2:].getall()
 
-banjarmangu
-banjarnegara
-batur
-bawang
-kalibening
-karangkobar
-madukara
-mandiraja
-pagedongan
-pegentan
-pandanarum
-pejawaran
-punggelan
-purwanegara
-purwarejaklampok
-rakit
-sigaluh
-susukan
-wanadadi
-wanayasa
-
 total_pdp_banjarmangu = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
 total_pdp_banjarnegara = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
 total_pdp_batur = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
@@ -421,3 +400,24 @@ total_pdp_sigaluh = response.css('#detail1 .align-middle:nth-child(11)::text')[2
 total_pdp_susukan = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
 total_pdp_wanadadi = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
 total_pdp_wanayasa = response.css('#detail1 .align-middle:nth-child(11)::text')[2:].getall()
+
+banjarmangu 1
+banjarnegara 11
+batur 6
+bawang 12
+kalibening 4
+karangkobar 3
+madukara 10
+mandiraja 16
+pagedongan 23
+pagentan 8
+pandanarum 19
+pejawaran 7
+punggelan 18
+purwanegara 13
+purwareja klampok 15
+rakit 17
+sigaluh 9
+susukan 14
+wanadadi 2
+wanayasa 5
