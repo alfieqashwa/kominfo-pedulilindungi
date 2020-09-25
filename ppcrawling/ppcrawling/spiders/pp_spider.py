@@ -792,6 +792,277 @@ class BanjarnegaraSpider(scrapy.Spider):
     months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
                   Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
 
+    # list of kecamatan
+    list_kecamatan = [
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarmangu',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Banjarnegara',
+        'Batur',
+        'Batur',
+        'Batur',
+        'Batur',
+        'Batur',
+        'Batur',
+        'Batur',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Bawang',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Kalibening',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Karangkobar',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Madukara',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Mandiraja',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagedongan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pagentan',
+        'Pandanarum',
+        'Pandanarum',
+        'Pandanarum',
+        'Pandanarum',
+        'Pandanarum',
+        'Pandanarum',
+        'Pandanarum',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Pejawaran',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Punggelan',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwanegara',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Purwareja Klampok',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Rakit',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Sigaluh',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Susukan',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanadadi',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+        'Wanayasa',
+    ]
+
     def parse(self, response):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
         types = 'kelurahan'
@@ -805,11 +1076,13 @@ class BanjarnegaraSpider(scrapy.Spider):
         provinsi = 'Jawa Tengah'
         kabkot = 'Banjarnegara'
 
-        # list of kecamatan
-        list_kecamatan = response.xpath(
-            '//*[@id="accordion1"]/td[2]/text()').getall()
+        # cannot create scripts programmatically bcoz
+        # there are several kelurahan which have similar name within different kecamatan
 
-        # list of kelurahan per kecamatan
+        # list_kecamatan = response.xpath(
+        #     '//*[@id="accordion1"]/td[2]/text()').getall()
+
+        # List of kelurahan per kecamatan
         banjarmangu = response.css(
             '#detail1 .align-middle:nth-child(2)::text')[2:].getall()
         banjarnegara = response.css(
@@ -1277,52 +1550,8 @@ class BanjarnegaraSpider(scrapy.Spider):
             otg_purwarejaklampok+otg_rakit+otg_sigaluh+otg_susukan+otg_wanadadi+otg_wanayasa
 
         for q in range(len(list_kelurahan)):
+            kecamatan = self.list_kecamatan[q]
             kelurahan = list_kelurahan[q]
-
-            # why there is no switch-case in Python?!
-            if kelurahan in banjarmangu:
-                kecamatan = list_kecamatan[0]
-            elif kelurahan in banjarnegara:
-                kecamatan = list_kecamatan[1]
-            elif kelurahan in batur:
-                kecamatan = list_kecamatan[2]
-            elif kelurahan in bawang:
-                kecamatan = list_kecamatan[3]
-            elif kelurahan in kalibening:
-                kecamatan = list_kecamatan[4]
-            elif kelurahan in karangkobar:
-                kecamatan = list_kecamatan[5]
-            elif kelurahan in madukara:
-                kecamatan = list_kecamatan[6]
-            elif kelurahan in mandiraja:
-                kecamatan = list_kecamatan[7]
-            elif kelurahan in pagedongan:
-                kecamatan = list_kecamatan[8]
-            elif kelurahan in pagentan:
-                kecamatan = list_kecamatan[9]
-            elif kelurahan in pandanarum:
-                kecamatan = list_kecamatan[10]
-            elif kelurahan in pejawaran:
-                kecamatan = list_kecamatan[11]
-            elif kelurahan in punggelan:
-                kecamatan = list_kecamatan[12]
-            elif kelurahan in purwanegara:
-                kecamatan = list_kecamatan[13]
-            elif kelurahan in purwarejaklampok:
-                kecamatan = list_kecamatan[14]
-            elif kelurahan in rakit:
-                kecamatan = list_kecamatan[15]
-            elif kelurahan in sigaluh:
-                kecamatan = list_kecamatan[16]
-            elif kelurahan in susukan:
-                kecamatan = list_kecamatan[17]
-            elif kelurahan in wanadadi:
-                kecamatan = list_kecamatan[18]
-            elif kelurahan in wanayasa:
-                kecamatan = list_kecamatan[19]
-            else:
-                kecamatan = ''
-
             total_odp = list_total_odp[q]
             total_pdp = list_total_pdp[q]
             total_positif = list_total_positif[q]
@@ -1338,7 +1567,7 @@ class BanjarnegaraSpider(scrapy.Spider):
                 'date_update': date_update,
                 'provinsi': provinsi,
                 'kabkot': kabkot,
-                'kecamatan': kecamatan.strip().capitalize(),
+                'kecamatan': kecamatan,
                 'kelurahan': kelurahan.strip().capitalize(),
                 'alamat': '',
                 'total_odp': total_odp,
