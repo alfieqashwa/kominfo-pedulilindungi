@@ -804,8 +804,12 @@ class BanjarnegaraSpider(scrapy.Spider):
         date_update = year + '-' + month + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Banjarnegara'
+
+        # list of kecamatan
         list_kecamatan = response.xpath(
             '//*[@id="accordion1"]/td[2]/text()').getall()
+
+        # list of kelurahan per kecamatan
         banjarmangu = response.css(
             '#detail1 .align-middle:nth-child(2)::text')[2:].getall()
         banjarnegara = response.css(
@@ -852,6 +856,7 @@ class BanjarnegaraSpider(scrapy.Spider):
                               pagentan+pandanarum+pejawaran+punggelan+purwanegara +
                               purwarejaklampok+rakit+sigaluh+susukan+wanadadi+wanayasa)
 
+        # ODP
         odp_banjarmangu = response.css(
             '#detail1 .align-middle:nth-child(11)::text').getall()
         odp_banjarnegara = response.css(
@@ -897,6 +902,7 @@ class BanjarnegaraSpider(scrapy.Spider):
             odp_pagentan+odp_pandanarum+odp_pejawaran+odp_punggelan+odp_purwanegara + \
             odp_purwarejaklampok+odp_rakit+odp_sigaluh+odp_susukan+odp_wanadadi+odp_wanayasa
 
+        # PDP
         pdp_dirawat_banjarmangu = np.array(list(map(int, response.css(
             '#detail1 .align-middle:nth-child(3)::text')[1:].getall())))
         pdp_dirawat_banjarnegara = np.array(list(map(int, response.css(
@@ -1066,6 +1072,7 @@ class BanjarnegaraSpider(scrapy.Spider):
             total_pdp_rakit.tolist()+total_pdp_sigaluh.tolist()+total_pdp_susukan.tolist() + \
             total_pdp_wanadadi.tolist()+total_pdp_wanayasa.tolist()
 
+        # POSITIF
         positif_dirawat_banjarmangu = response.css(
             '#detail1 .align-middle:nth-child(6)::text')[2:].getall()
         positif_dirawat_banjarnegara = response.css(
@@ -1189,68 +1196,85 @@ class BanjarnegaraSpider(scrapy.Spider):
         positif_meninggal_wanayasa = response.css(
             '#detail5 .align-middle:nth-child(8)::text')[1:].getall()
 
+        # Positif Sembuh
         list_positif_sembuh = positif_sembuh_banjarmangu+positif_sembuh_banjarnegara+positif_sembuh_batur+positif_sembuh_bawang+positif_sembuh_kalibening+positif_sembuh_karangkobar+positif_sembuh_madukara+positif_sembuh_mandiraja+positif_sembuh_pagedongan+positif_sembuh_pagentan + \
             positif_sembuh_pandanarum+positif_sembuh_pejawaran+positif_sembuh_punggelan+positif_sembuh_purwanegara+positif_sembuh_purwarejaklampok + \
             positif_sembuh_rakit+positif_sembuh_sigaluh+positif_sembuh_susukan + \
             positif_sembuh_wanadadi+positif_sembuh_wanayasa
 
+        # Positif di Rawat
         list_positif_dirawat = positif_dirawat_banjarmangu+positif_dirawat_banjarnegara+positif_dirawat_batur+positif_dirawat_bawang+positif_dirawat_kalibening+positif_dirawat_karangkobar+positif_dirawat_madukara+positif_dirawat_mandiraja+positif_dirawat_pagedongan+positif_dirawat_pagentan + \
             positif_dirawat_pandanarum+positif_dirawat_pejawaran+positif_dirawat_punggelan+positif_dirawat_purwanegara+positif_dirawat_purwarejaklampok + \
             positif_dirawat_rakit+positif_dirawat_sigaluh+positif_dirawat_susukan + \
             positif_dirawat_wanadadi+positif_dirawat_wanayasa
 
+        # Positif Meninggal
         list_positif_meninggal = positif_meninggal_banjarmangu+positif_meninggal_banjarnegara+positif_meninggal_batur+positif_meninggal_bawang+positif_meninggal_kalibening+positif_meninggal_karangkobar+positif_meninggal_madukara+positif_meninggal_mandiraja+positif_meninggal_pagedongan+positif_meninggal_pagentan + \
             positif_meninggal_pandanarum+positif_meninggal_pejawaran+positif_meninggal_punggelan+positif_meninggal_purwanegara+positif_meninggal_purwarejaklampok + \
             positif_meninggal_rakit+positif_meninggal_sigaluh+positif_meninggal_susukan + \
             positif_meninggal_wanadadi+positif_meninggal_wanayasa
 
-        # total_positif_banjarmangu = np.add(
-        #     positif_dirawat_banjarmangu, positif_sembuh_banjarmangu, positif_meninggal_banjarmangu)
-        # total_positif_banjarnegara = np.add(
-        #     positif_dirawat_banjarnegara, positif_sembuh_banjarnegara, positif_meninggal_banjarnegara)
-        # total_positif_batur = np.add(
-        #     positif_dirawat_batur, positif_sembuh_batur, positif_meninggal_batur)
-        # total_positif_bawang = np.add(
-        #     positif_dirawat_bawang, positif_sembuh_bawang, positif_meninggal_bawang)
-        # total_positif_kalibening = np.add(
-        #     positif_dirawat_kalibening, positif_sembuh_kalibening, positif_meninggal_kalibening)
-        # total_positif_karangkobar = np.add(
-        #     positif_dirawat_karangkobar, positif_sembuh_karangkobar, positif_meninggal_karangkobar)
-        # total_positif_madukara = np.add(
-        #     positif_dirawat_madukara, positif_sembuh_madukara, positif_meninggal_madukara)
-        # total_positif_mandiraja = np.add(
-        #     positif_dirawat_mandiraja, positif_sembuh_mandiraja, positif_meninggal_mandiraja)
-        # total_positif_pagedongan = np.add(
-        #     positif_dirawat_pagedongan, positif_sembuh_pagedongan, positif_meninggal_pagedongan)
-        # total_positif_pagentan = np.add(
-        #     positif_dirawat_pagentan, positif_sembuh_pagentan, positif_meninggal_pagentan)
-        # total_positif_pandanarum = np.add(
-        #     positif_dirawat_pandanarum, positif_sembuh_pandanarum, positif_meninggal_pandanarum)
-        # total_positif_pejawaran = np.add(
-        #     positif_dirawat_pejawaran, positif_sembuh_pejawaran, positif_meninggal_pejawaran)
-        # total_positif_punggelan = np.add(
-        #     positif_dirawat_punggelan, positif_sembuh_punggelan, positif_meninggal_punggelan)
-        # total_positif_purwanegara = np.add(
-        #     positif_dirawat_purwanegara, positif_sembuh_purwanegara, positif_meninggal_purwanegara)
-        # total_positif_purwarejaklampok = np.add(
-        #     positif_dirawat_purwarejaklampok, positif_sembuh_purwarejaklampok, positif_meninggal_purwarejaklampok)
-        # total_positif_rakit = np.add(
-        #     positif_dirawat_rakit, positif_sembuh_rakit, positif_meninggal_rakit)
-        # total_positif_sigaluh = np.add(
-        #     positif_dirawat_sigaluh, positif_sembuh_sigaluh, positif_meninggal_sigaluh)
-        # total_positif_susukan = np.add(
-        #     positif_dirawat_susukan, positif_sembuh_susukan, positif_meninggal_susukan)
-        # total_positif_wanadadi = np.add(
-        #     positif_dirawat_wanadadi, positif_sembuh_wanadadi, positif_meninggal_wanadadi)
-        # total_positif_wanayasa = np.add(
-        #     positif_dirawat_wanayasa, positif_sembuh_wanayasa, positif_meninggal_wanayasa)
+        # Total Positif
+        # convert to numpy array
+        list_positif_sembuh_int_np = np.array(
+            list(map(int, list_positif_sembuh)))
+        list_positif_dirawat_int_np = np.array(
+            list(map(int, list_positif_dirawat)))
+        list_positif_meninggal_int_np = np.array(
+            list(map(int, list_positif_meninggal)))
 
-        # list_total_positif = total_positif_banjarmangu.tolist()+total_positif_banjarnegara.tolist()+total_positif_batur.tolist()+total_positif_bawang.tolist()+total_positif_kalibening.tolist()+total_positif_karangkobar.tolist()+total_positif_madukara.tolist()+total_positif_mandiraja.tolist()+total_positif_pagedongan.tolist()+total_positif_pagentan.tolist() + \
-        #     total_positif_pandanarum.tolist()+total_positif_pejawaran.tolist()+total_positif_punggelan.tolist()+total_positif_purwanegara.tolist()+total_positif_purwarejaklampok.tolist() + \
-        #     total_positif_rakit.tolist()+total_positif_sigaluh.tolist()+total_positif_susukan.tolist() + \
-        #     total_positif_wanadadi.tolist()+total_positif_wanayasa.tolist()
+        # calc add lists using numpy array dim
+        list_total_positif_np_int = np.add(
+            list_positif_sembuh_int_np, list_positif_dirawat_int_np, list_positif_meninggal_int_np)
 
-        source_link = 'http://corona.banjarnegarakab.go.id/'
+        # convert into (primitive) list/array
+        list_total_positif = list_total_positif_np_int.tolist()
+
+        # Total OTG
+        otg_banjarmangu = response.css(
+            '#detail1 .align-middle:nth-child(10)::text').getall()
+        otg_banjarnegara = response.css(
+            '#detail11 .align-middle:nth-child(10)::text').getall()
+        otg_batur = response.css(
+            '#detail6 .align-middle:nth-child(10)::text').getall()
+        otg_bawang = response.css(
+            '#detail12 .align-middle:nth-child(10)::text').getall()
+        otg_kalibening = response.css(
+            '#detail4 .align-middle:nth-child(10)::text').getall()
+        otg_karangkobar = response.css(
+            '#detail3 .align-middle:nth-child(10)::text').getall()
+        otg_madukara = response.css(
+            '#detail10 .align-middle:nth-child(10)::text').getall()
+        otg_mandiraja = response.css(
+            '#detail16 .align-middle:nth-child(10)::text').getall()
+        otg_pagedongan = response.css(
+            '#detail23 .align-middle:nth-child(10)::text').getall()
+        otg_pagentan = response.css(
+            '#detail8 .align-middle:nth-child(10)::text').getall()
+        otg_pandanarum = response.css(
+            '#detail19 .align-middle:nth-child(10)::text').getall()
+        otg_pejawaran = response.css(
+            '#detail7 .align-middle:nth-child(10)::text').getall()
+        otg_punggelan = response.css(
+            '#detail18 .align-middle:nth-child(10)::text').getall()
+        otg_purwanegara = response.css(
+            '#detail13 .align-middle:nth-child(10)::text').getall()
+        otg_purwarejaklampok = response.css(
+            '#detail15 .align-middle:nth-child(10)::text').getall()
+        otg_rakit = response.css(
+            '#detail17 .align-middle:nth-child(10)::text').getall()
+        otg_sigaluh = response.css(
+            '#detail9 .align-middle:nth-child(10)::text').getall()
+        otg_susukan = response.css(
+            '#detail14 .align-middle:nth-child(10)::text').getall()
+        otg_wanadadi = response.css(
+            '#detail2 .align-middle:nth-child(10)::text').getall()
+        otg_wanayasa = response.css(
+            '#detail5 .align-middle:nth-child(10)::text').getall()
+
+        list_total_otg = otg_banjarmangu+otg_banjarnegara+otg_batur+otg_bawang+otg_kalibening+otg_karangkobar+otg_madukara+otg_mandiraja+otg_pagedongan + \
+            otg_pagentan+otg_pandanarum+otg_pejawaran+otg_punggelan+otg_purwanegara + \
+            otg_purwarejaklampok+otg_rakit+otg_sigaluh+otg_susukan+otg_wanadadi+otg_wanayasa
 
         for q in range(len(list_kelurahan)):
             kelurahan = list_kelurahan[q]
@@ -1301,10 +1325,11 @@ class BanjarnegaraSpider(scrapy.Spider):
 
             total_odp = list_total_odp[q]
             total_pdp = list_total_pdp[q]
-            # total_positif = list_total_positif[q]
+            total_positif = list_total_positif[q]
             positif_sembuh = list_positif_sembuh[q]
             positif_dirawat = list_positif_dirawat[q]
             positif_meninggal = list_positif_meninggal[q]
+            total_otg = list_total_otg[q]
 
             yield {
                 'scrape_date': scrape_date,
@@ -1318,13 +1343,13 @@ class BanjarnegaraSpider(scrapy.Spider):
                 'alamat': '',
                 'total_odp': total_odp,
                 'total_pdp': total_pdp,
-                # 'total_positif': total_positif,
+                'total_positif': total_positif,
                 'positif_sembuh': positif_sembuh,
                 'positif_dirawat': positif_dirawat,
                 'positif_isolasi': '',
                 'positif_meninggal': positif_meninggal,
-                'total_otg': '',
+                'total_otg': total_otg,
                 'total_pp': '',
                 'total_ppdt': '',
-                'source_link': source_link
+                'source_link': 'http://corona.banjarnegarakab.go.id/'
             }
