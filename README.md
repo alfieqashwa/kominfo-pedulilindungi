@@ -25,3 +25,5 @@
 ### kota magelang
 
 ### kendal <-- new, need to testing again
+
+### banjarnegara <-- new, need to testing carefully
