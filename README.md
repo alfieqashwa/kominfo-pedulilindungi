@@ -1,16 +1,27 @@
 ## GOD Saves NeoVim
+
 ## GOD should Saves Scrapy too
 
 ## DONE SCRIPTS
 
 ### magelang <-- the site has changed and should start over creates new one
+
 ### boyolali
+
 ### cilacap
+
 ### grobogan
-### kebumen
+
+### kebumen <-- the site has changed and should start over creates new one
+
 ### kudus
+
 ### purbalingga
+
 ### semarang
+
 ### tegal
+
 ### kota magelang
-### kendal
+
+### kendal <-- new, need to testing again
