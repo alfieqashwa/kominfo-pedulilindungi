@@ -1,18 +1,18 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Jurangombo Utara,,11,0,0,0,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Jurangombo Selatan,,22,0,3,2,0,0,1,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Magersari,,22,0,14,12,1,0,1,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Rejowinangun Selatan,,13,0,12,7,3,0,2,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Tidar Utara,,23,1,5,2,2,1,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Selatan,Tidar Selatan,,19,0,3,3,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Cacaban,,52,0,3,3,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Gelangan,,24,0,4,3,0,0,1,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Kemirirejo,,19,4,13,3,5,1,4,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Magelang,,30,0,3,3,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Panjang,,15,0,11,10,0,0,1,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Tengah,Rejowinangun Utara,,13,2,23,20,1,1,1,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Utara,Kedungsari,,51,0,29,22,2,3,2,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Utara,Kramat Selatan,,50,1,9,9,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Utara,Kramat Utara,,37,0,9,9,0,0,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Utara,Potrobangsan,,41,0,14,11,2,1,0,,,,,https://covid19.magelangkota.go.id/
-2020-09-25,kelurahan,Alfie Qashwa,2020-09-25,Jawa Tengah,Kota Magelang,Magelang Utara,Wates,,50,0,11,10,0,1,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Jurangombo Utara,,11,0,0,0,0,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Jurangombo Selatan,,21,0,4,2,1,0,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Magersari,,23,0,14,12,1,0,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Rejowinangun Selatan,,13,0,12,8,2,0,2,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Tidar Utara,,23,1,5,3,1,1,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Selatan,Tidar Selatan,,19,0,3,3,0,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Cacaban,,52,0,5,3,2,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Gelangan,,24,0,4,3,0,0,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Kemirirejo,,19,5,17,5,7,1,4,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Magelang,,30,0,3,3,0,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Panjang,,15,0,11,10,0,0,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Tengah,Rejowinangun Utara,,14,2,23,20,1,1,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Utara,Kedungsari,,51,0,30,22,2,4,2,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Utara,Kramat Selatan,,50,1,9,9,0,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Utara,Kramat Utara,,37,0,9,9,0,0,0,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Utara,Potrobangsan,,41,0,14,11,1,1,1,,,,,https://covid19.magelangkota.go.id/
+2020-09-28,kelurahan,Alfie Qashwa,2020-09-28,Jawa Tengah,Kota Magelang,Magelang Utara,Wates,,50,0,11,10,0,1,0,,,,,https://covid19.magelangkota.go.id/

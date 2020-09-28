@@ -417,6 +417,8 @@ class KebumenSpider(scrapy.Spider):
     name = "kebumen"
     start_urls = [
         "https://corona.kebumenkab.go.id/index.php/web/peta_sebaran"
+        # "https://corona.kebumenkab.go.id/index.php/web/data_sebaran_by_desa/"
+        # http://103.86.103.62/
     ]
 
     def parse(self, response):
@@ -564,7 +566,7 @@ class TegalSpider(scrapy.Spider):
             # token has changed on each request i believe
             # 'token': '4yt6rul1232y2yi23'
             # 'token': '4yt6rul1232y2yi24'
-            'token': '4yt6rul1232y2yi25'
+            'token': '4yt6rul1232y2yi2p'
         }
 
         # Reminder:
