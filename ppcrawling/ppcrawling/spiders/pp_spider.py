@@ -158,26 +158,20 @@ class SemarangSpider(scrapy.Spider):
         # dupl_kec = response.xpath(
         #     '//*[@id="example1"]/tbody/tr/td[2]/text()').extract()
         # kecamatan = list(dict.fromkeys(dupl_kec))
-        kecamatan = ''
-        kelurahan = ''
-        alamat = ''
         total_odp = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[5]/div/div/div[1]/div[2]/div/text()').extract_first()
-        t_pdp = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()')[1].extract()
-        total_pdp = t_pdp.strip('\r\n ')
-        total_positif = ''
-        positif_sembuh = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract_first()
-        positif_dirawat = response.xpath(
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/text()').extract_first()
+        t_pdp = response.xpath(
+            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract()
+        total_pdp = t_pdp[1].strip()
+        positif_sembuh = response.xpath(
+            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[5]/div/div/div[1]/div[2]/div/text()').extract_first()
+        positif_dirawat = response.xpath(
+            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]/div[2]/div/text()').extract_first()
         positif_isolasi = ''
         positif_meninggal = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]/div[2]/div/text()').extract_first()
-        total_otg = ''
-        odr_total = ''
-        total_pp = ''
-        total_ppdt = ''
+            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()').extract_first()
+        total_positif = int(positif_sembuh) + \
+            int(positif_dirawat)+int(positif_meninggal)
         source_link = 'https://siagacorona.semarangkota.go.id/halaman/odppdpv2'
 
         yield {
@@ -187,20 +181,20 @@ class SemarangSpider(scrapy.Spider):
             'date_update': date_update,
             'provinsi': provinsi,
             'kabkot': kabkot,
-            'kecamatan': kecamatan,
-            'kelurahan': kelurahan,
-            'alamat': alamat,
+            'kecamatan': '',
+            'kelurahan': '',
+            'alamat': '',
             'total_odp': total_odp,
             'total_pdp': total_pdp,
-            'total_positif': total_positif,
+            'total_positif': str(total_positif),
             'positif_sembuh': positif_sembuh,
             'positif_dirawat': positif_dirawat,
             'positif_isolasi': positif_isolasi,
             'positif_meninggal': positif_meninggal,
-            'total_otg': total_otg,
-            'odr_total': odr_total,
-            'total_pp': total_pp,
-            'total_ppdt': total_ppdt,
+            'total_otg': '',
+            'odr_total': '',
+            'total_pp': '',
+            'total_ppdt': '',
             'source_link': source_link,
         }
 
