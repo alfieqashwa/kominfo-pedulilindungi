@@ -566,7 +566,7 @@ class TegalSpider(scrapy.Spider):
             # token has changed on each request i believe
             # 'token': '4yt6rul1232y2yi23'
             # 'token': '4yt6rul1232y2yi24'
-            'token': '4yt6rul1232y2yi2p'
+            'token': '4yt6rul1232y2yi2i'
         }
 
         # Reminder:
