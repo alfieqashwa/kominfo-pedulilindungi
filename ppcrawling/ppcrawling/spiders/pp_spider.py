@@ -642,7 +642,6 @@ class KotaMagelangSpider(scrapy.Spider):
     start_urls = [
         'https://covid19.magelangkota.go.id'
     ]
-
     magelang_selatan = ["Jurangombo Selatan", "Jurangombo Utara",
                         "Magersari", "Rejowinangun Selatan", "Tidar Selatan", "Tidar Utara"]
     magelang_tengah = ["Cacaban", "Gelangan", "Kemirirejo",
@@ -658,11 +657,11 @@ class KotaMagelangSpider(scrapy.Spider):
         types = 'kelurahan'
         user_pic = 'Alfie Qashwa'
         raw_date = response.xpath(
-            '//*[@id="update"]/div/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/p[1]/span/text()').get()
-        day = raw_date[9:11]
+            '//*[@id="update"]/div/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/p[1]/span/text()').re(r': (\w+) (\w+) (\w+)')
+        day = raw_date[0]
         # because its crawl SEPTEMBER
-        month = raw_date[12:21].capitalize()
-        year = raw_date[22:26]
+        month = raw_date[1].capitalize()
+        year = raw_date[2]
         date_update = year + '-' + self.months[month] + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Kota Magelang'
