@@ -216,11 +216,12 @@ class KudusSpider(scrapy.Spider):
         types = "kecamatan"
         user_pic = "Alfie Qashwa"
         crawl_date = response.xpath(
-            '//*[@id="monitoring"]/div/div/div/div/div[1]/span/text()').extract_first()
+            '//*[@id="monitoring"]/div/div/div/div/div[1]/span/text()').re(r': (\w+) (\w+) (\w+)')
         # s**t dirty code
-        day = crawl_date[18:20]
-        month = crawl_date[21:30]
-        year = crawl_date[31:35]
+        # updated: using regex
+        day = crawl_date[0]
+        month = crawl_date[1]
+        year = crawl_date[2]
         date_update = year + '-' + self.months[month] + '-' + day
         provinsi = 'Jawa Tengah'
         kabkot = 'Kudus'
