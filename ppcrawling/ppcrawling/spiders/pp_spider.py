@@ -726,8 +726,8 @@ class KendalSpider(scrapy.Spider):
         "https://corona.kendalkab.go.id/"
     ]
 
-    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
-                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
+    months = dict(January='01', February='02', March='03', April='04', May='05', June='06',
+                  July='07', August='08', September='09', October='10', November='11', December='12')
 
     def parse(self, response):
         scrape_date = datetime.now().strftime("%Y-%m-%d")
