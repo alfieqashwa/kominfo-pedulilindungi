@@ -559,7 +559,8 @@ class TegalSpider(scrapy.Spider):
             # otherwise the response status would be "ERROR".
             # 'token': '4yt6rul1232y2y1y5'
             # 'token': '4yt6rul1232y2y1y6'
-            'token': '4yt6rul1232y2y1yp'
+            # 'token': '4yt6rul1232y2y1yp'
+            'token': '4yt6rul1232y2y1yi'
         }
 
         # Reminder:
