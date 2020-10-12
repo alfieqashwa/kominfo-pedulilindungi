@@ -557,7 +557,8 @@ class TegalSpider(scrapy.Spider):
         params = {
             # Query String Paramaters on Headers is required,
             # otherwise the response status would be "ERROR".
-            'token': '4yt6rul1232y2y1y11'
+            # 'token': '4yt6rul1232y2y1y11'
+            'token': '4yt6rul1232y2y1y12'
         }
 
         # Reminder:
