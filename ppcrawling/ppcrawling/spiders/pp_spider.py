@@ -560,7 +560,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y2y1y11'
             # 'token': '4yt6rul1232y2y1y12'
             # 'token': '4yt6rul1232y2y1y14'
-            'token': '4yt6rul1232y2y1y15'
+            # 'token': '4yt6rul1232y2y1y15'
+            'token': '4yt6rul1232y2y1y16'
         }
 
         # Reminder:
@@ -581,7 +582,7 @@ class TegalSpider(scrapy.Spider):
         user_pic = 'Alfie Qashwa'
         date_update = datetime.now().strftime("%Y-%m-%d")
         provinsi = 'Jawa Tengah'
-        kabkot = 'Tegal'
+        kabkot = 'Kota Tegal'
         source_link = 'https://corona.tegalkota.go.id/'
 
         for data in datas["response"]["data"]:
