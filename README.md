@@ -27,3 +27,5 @@
 ### kendal <-- new, need to testing again
 
 ### banjarnegara <-- new, need to testing carefully
+
+### kebumen <-- new script, need to testing carefully
