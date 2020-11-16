@@ -526,7 +526,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y2y1112'
             # 'token': '4yt6rul1232y2y1113'
             # 'token': '4yt6rul1232y2y1114'
-            'token': '4yt6rul1232y2y1115'
+            # 'token': '4yt6rul1232y2y1115'
+            'token': '4yt6rul1232y2y1116'
         }
 
         # Reminder:
@@ -593,90 +594,6 @@ class TegalSpider(scrapy.Spider):
                 'positif_dirawat': str(positif_dirawat),
                 'positif_isolasi': str(positif_isolasi),
                 'positif_meninggal': str(positif_meninggal),
-                'total_otg': '',
-                'odr_total': '',
-                'total_pp': '',
-                'total_ppdt': '',
-                'source_link': source_link,
-            }
-
-
-class KotaMagelangSpider(scrapy.Spider):
-    name = 'kotamagelang'
-    start_urls = [
-        'https://covid19.magelangkota.go.id'
-    ]
-    magelang_selatan = ["Jurangombo Selatan", "Jurangombo Utara",
-                        "Magersari", "Rejowinangun Selatan", "Tidar Selatan", "Tidar Utara"]
-    magelang_tengah = ["Cacaban", "Gelangan", "Kemirirejo",
-                       "Magelang", "Panjang", "Rejowinangun Utara"]
-    magelang_utara = ["Kedungsari", "Kramat Selatan",
-                      "Kramat Utara", "Potrobangsan", "Wates"]
-
-    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
-                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
-
-    def parse(self, response):
-        scrape_date = datetime.now().strftime("%Y-%m-%d")
-        types = 'kelurahan'
-        user_pic = 'Alfie Qashwa'
-        raw_date = response.xpath(
-            '//*[@id="update"]/div/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/p[1]/span/text()').re(r': (\w+) (\w+) (\w+)')
-        day = raw_date[0]
-        # because its crawl SEPTEMBER
-        month = raw_date[1].capitalize()
-        year = raw_date[2]
-        date_update = year + '-' + self.months[month] + '-' + day
-        provinsi = 'Jawa Tengah'
-        kabkot = 'Kota Magelang'
-        list_kelurahan = ['Jurangombo Utara', 'Jurangombo Selatan', 'Magersari', 'Rejowinangun Selatan', 'Tidar Utara', 'Tidar Selatan', 'Cacaban',
-                          'Gelangan', 'Kemirirejo', 'Magelang', 'Panjang', 'Rejowinangun Utara', 'Kedungsari', 'Kramat Selatan', 'Kramat Utara', 'Potrobangsan', 'Wates']
-
-        for q in range(len(list_kelurahan)):
-            kelurahan = list_kelurahan[q]
-
-            if kelurahan in self.magelang_selatan:
-                kecamatan = 'Magelang Selatan'
-            elif kelurahan in self.magelang_tengah:
-                kecamatan = 'Magelang Tengah'
-            elif kelurahan in self.magelang_utara:
-                kecamatan = 'Magelang Utara'
-            else:
-                kecamatan = ''
-
-            total_odp = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/text()').getall()
-            total_pdp = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/text()').getall()
-            total_positif = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
-            positif_sembuh = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[5]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
-            positif_dirawat = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[3]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
-            positif_isolasi = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[4]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
-            positif_meninggal = response.xpath(
-                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[6]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
-
-            source_link = 'https://covid19.magelangkota.go.id/'
-            yield {
-                'scrape_date': scrape_date,
-                'types': types,
-                'user_pic': user_pic,
-                'date_update': date_update,
-                'provinsi': provinsi,
-                'kabkot': kabkot,
-                'kecamatan': kecamatan,
-                'kelurahan': kelurahan,
-                'alamat': '',
-                'total_odp': total_odp[q].strip(),
-                'total_pdp': total_pdp[q].strip(),
-                'total_positif': total_positif[q].strip(),
-                'positif_sembuh': positif_sembuh[q].strip(),
-                'positif_dirawat': positif_dirawat[q].strip(),
-                'positif_isolasi': positif_isolasi[q].strip(),
-                'positif_meninggal': positif_meninggal[q].strip(),
                 'total_otg': '',
                 'odr_total': '',
                 'total_pp': '',
@@ -1658,6 +1575,99 @@ class KebumenSpider(scrapy.Spider):
                 'positif_dirawat': positif_dirawat,
                 'positif_isolasi': positif_isolasi,
                 'positif_meninggal': positif_meninggal,
+                'total_otg': '',
+                'odr_total': '',
+                'total_pp': '',
+                'total_ppdt': '',
+                'source_link': source_link,
+            }
+
+
+class KotaMagelangSpider(scrapy.Spider):
+    name = 'kotamagelang'
+
+    def start_requests(self):
+        site = "https://covid19.magelangkota.go.id"
+        urls = [
+            f'{site}/tabel/tanggal-update.php',
+            f'{site}/tabel/suspek.php',
+            f'{site}/tabel/probable.php',
+            f'{site}/tabel/konfirmasi.php',
+        ]
+        for url in urls:
+            yield scrapy.Request(url=url, callback=self.parse)
+
+    magelang_selatan = ["Jurangombo Selatan", "Jurangombo Utara",
+                        "Magersari", "Rejowinangun Selatan", "Tidar Selatan", "Tidar Utara"]
+    magelang_tengah = ["Cacaban", "Gelangan", "Kemirirejo",
+                       "Magelang", "Panjang", "Rejowinangun Utara"]
+    magelang_utara = ["Kedungsari", "Kramat Selatan",
+                      "Kramat Utara", "Potrobangsan", "Wates"]
+
+    months = dict(Januari='01', Februari='02', Maret='03', April='04', Mei='05', Juni='06',
+                  Juli='07', Agustus='08', September='09', Oktober='10', November='11', Desember='12')
+
+    def parse(self, response):
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kelurahan'
+        user_pic = 'Alfie Qashwa'
+        raw_date = response.xpath(
+            '//*[@id="update"]/div/div/div/div[2]/div/div/div[2]/div/div/div/div[1]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/p[1]/span/text()').re(r': (\w+) (\w+) (\w+)')
+        day = raw_date[0]
+        # because its crawl SEPTEMBER
+        month = raw_date[1].capitalize()
+        year = raw_date[2]
+        date_update = year + '-' + self.months[month] + '-' + day
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Kota Magelang'
+        list_kelurahan = ['Jurangombo Utara', 'Jurangombo Selatan', 'Magersari', 'Rejowinangun Selatan', 'Tidar Utara', 'Tidar Selatan', 'Cacaban',
+                          'Gelangan', 'Kemirirejo', 'Magelang', 'Panjang', 'Rejowinangun Utara', 'Kedungsari', 'Kramat Selatan', 'Kramat Utara', 'Potrobangsan', 'Wates']
+
+        for q in range(len(list_kelurahan)):
+            kelurahan = list_kelurahan[q]
+
+            if kelurahan in self.magelang_selatan:
+                kecamatan = 'Magelang Selatan'
+            elif kelurahan in self.magelang_tengah:
+                kecamatan = 'Magelang Tengah'
+            elif kelurahan in self.magelang_utara:
+                kecamatan = 'Magelang Utara'
+            else:
+                kecamatan = ''
+
+            total_odp = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/text()').getall()
+            total_pdp = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/text()').getall()
+            total_positif = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
+            positif_sembuh = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[5]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
+            positif_dirawat = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[3]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
+            positif_isolasi = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[4]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
+            positif_meninggal = response.xpath(
+                '//*[@id="lengkap"]/div/div/div/div/div/div/div[2]/div/div/div/div[3]/div/div/div/div/div/div/div[6]/div/div[2]/div/div/div/p/span/text()')[1:18].getall()
+
+            source_link = 'https://covid19.magelangkota.go.id/'
+            yield {
+                'scrape_date': scrape_date,
+                'types': types,
+                'user_pic': user_pic,
+                'date_update': date_update,
+                'provinsi': provinsi,
+                'kabkot': kabkot,
+                'kecamatan': kecamatan,
+                'kelurahan': kelurahan,
+                'alamat': '',
+                'total_odp': total_odp[q].strip(),
+                'total_pdp': total_pdp[q].strip(),
+                'total_positif': total_positif[q].strip(),
+                'positif_sembuh': positif_sembuh[q].strip(),
+                'positif_dirawat': positif_dirawat[q].strip(),
+                'positif_isolasi': positif_isolasi[q].strip(),
+                'positif_meninggal': positif_meninggal[q].strip(),
                 'total_otg': '',
                 'odr_total': '',
                 'total_pp': '',
