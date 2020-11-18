@@ -1675,3 +1675,71 @@ class KotaMagelangSpider(scrapy.Spider):
                 'total_ppdt': '',
                 'source_link': source_link,
             }
+
+
+class KaranganyarSpider(scrapy.Spider):
+    name = 'karanganyar'
+    start_urls = [
+        "https://covid19.karanganyarkab.go.id/assets/maps/map-kab-kra.geojson"
+    ]
+    headers = {
+        "Accept": "Accept: application/json, text/javascript, */*; q=0.01",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://covid19.karanganyarkab.go.id/",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (X11 Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+    }
+
+    def parse(self, response):
+        raw_data = response.body
+        data = json.loads(raw_data)
+
+        scrape_date = datetime.now().strftime("%Y-%m-%d")
+        types = 'kecamatan'
+        user_pic = 'Alfie Qashwa'
+        # they will fetch the datas everyday automatically as data-fetching habits
+        date_update = datetime.now().strftime("%Y-%m-%d")
+        provinsi = 'Jawa Tengah'
+        kabkot = 'Karanganyar'
+        kecamatan = ''
+        kelurahan = ''
+        alamat = ''
+        total_odp = ''
+        total_pdp = ''
+        total_positif = ''
+        positif_sembuh = ''
+        positif_dirawat = ''
+        positif_isolasi = ''
+        positif_meninggal = ''
+        total_otg = ''
+        odr_total = ''
+        total_pp = ''
+        total_ppdt = ''
+        source_link = 'https://covid19.karanganyarkab.go.id/'
+
+        yield {
+            'scrape_date': scrape_date,
+            'types': types,
+            'user_pic': user_pic,
+            'date_update': date_update,
+            'provinsi': provinsi,
+            'kabkot': kabkot,
+            'kecamatan': kecamatan,
+            'kelurahan': kelurahan,
+            'alamat': alamat,
+            'total_odp': total_odp,
+            'total_pdp': total_pdp,
+            'total_positif': total_positif,
+            'positif_sembuh': positif_sembuh,
+            'positif_dirawat': positif_dirawat,
+            'positif_isolasi': positif_isolasi,
+            'positif_meninggal': positif_meninggal,
+            'total_otg': total_otg,
+            'odr_total': odr_total,
+            'total_pp': total_pp,
+            'total_ppdt': total_ppdt,
+            'source_link': source_link,
+        }
