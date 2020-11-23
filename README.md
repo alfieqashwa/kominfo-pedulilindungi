@@ -12,9 +12,13 @@
 
 ### grobogan
 
+### karanganyar <-- manual
+
 ### kebumen <-- the site has changed and should start over creates new one
 
 ### kudus
+
+### pekalongankota <-- manual
 
 ### purbalingga
 
