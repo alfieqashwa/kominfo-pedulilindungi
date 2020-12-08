@@ -144,7 +144,8 @@ class GroboganSpider(scrapy.Spider):
 class SemarangSpider(scrapy.Spider):
     name = "semarang"
     start_urls = [
-        "https://siagacorona.semarangkota.go.id/halaman/odppdpv2"
+        # "https://siagacorona.semarangkota.go.id/halaman/odppdpv2"
+        "https://siagacorona.semarangkota.go.id/halaman/covid19"
     ]
 
     def parse(self, response):
