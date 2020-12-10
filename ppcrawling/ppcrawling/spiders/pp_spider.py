@@ -173,7 +173,7 @@ class SemarangSpider(scrapy.Spider):
             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()').extract_first()
         total_positif = int(positif_sembuh) + \
             int(positif_dirawat)+int(positif_meninggal)
-        source_link = 'https://siagacorona.semarangkota.go.id/halaman/odppdpv2'
+        source_link = 'https://siagacorona.semarangkota.go.id/halaman/covid19'
 
         yield {
             'scrape_date': scrape_date,
@@ -549,7 +549,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y2y126'
             # 'token': '4yt6rul1232y2y12k'
             # 'token': '4yt6rul1232y2y12p'
-            'token': '4yt6rul1232y2y12i'
+            # 'token': '4yt6rul1232y2y12i'
+            'token': '4yt6rul1232y2y121y'
         }
 
         # Reminder:
