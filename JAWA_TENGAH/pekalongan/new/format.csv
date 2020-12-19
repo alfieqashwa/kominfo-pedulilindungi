@@ -1,28 +1,28 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Bendan Kergon,,3,0,82,65,2,7,8,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Medono,,0,0,81,68,2,7,4,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Pasir Kraton Kramat,,5,0,60,48,0,7,5,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Podosugih,,0,0,60,53,1,4,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Pringrejo,,5,0,71,55,3,9,4,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Saporu Kebulen,,1,0,43,34,1,7,1,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Tirto,,1,1,43,29,4,8,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Banyurip,,3,0,24,20,1,1,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Buaran Kradenan,,1,0,47,44,0,1,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Jenggot,,4,0,28,24,1,1,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Kuripan Kertoharjo,,1,0,23,19,1,2,1,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Kuripan Yosorejo,,1,1,33,31,0,1,1,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Sokoduwet,,2,0,26,22,2,1,1,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Noyontaansari,,5,1,65,57,1,5,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Kauman,,4,1,66,51,3,8,4,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Poncol,,2,0,44,34,1,4,5,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Klego,,1,0,22,15,0,5,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Gamer,,1,1,16,13,1,2,0,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Setono,,1,1,43,37,0,3,3,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Kalibaros,,0,0,25,15,3,5,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Bandengan,,0,0,17,17,0,0,0,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Degayu,,0,0,18,17,0,0,1,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Krapyak,,3,0,66,55,0,4,7,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Kandang Panjang,,3,0,56,46,1,7,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Panjang Baru,,4,1,40,35,1,2,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Panjang Wetan,,2,0,29,22,1,4,2,,,,,http://corona.pekalongankota.go.id/
-2020-12-18,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Padukuhan Kraton,,6,0,68,55,1,8,4,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Bendan Kergon,,3,0,82,65,2,7,8,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Medono,,0,0,81,68,2,7,4,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Pasir Kraton Kramat,,5,0,60,48,0,7,5,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Podosugih,,0,0,60,53,1,4,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Pringrejo,,5,0,71,55,3,9,4,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Saporu Kebulen,,1,0,43,34,1,7,1,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Barat,Tirto,,1,1,43,29,4,8,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Banyurip,,3,0,24,20,1,1,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Buaran Kradenan,,1,0,47,44,0,1,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Jenggot,,4,0,28,24,1,1,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Kuripan Kertoharjo,,1,0,23,19,1,2,1,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Kuripan Yosorejo,,1,1,33,31,0,1,1,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Selatan,Sokoduwet,,2,0,26,22,2,1,1,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Noyontaansari,,5,1,65,57,1,5,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Kauman,,4,1,66,51,3,8,4,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Poncol,,2,0,44,34,1,4,5,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Klego,,1,0,22,15,0,5,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Gamer,,1,1,16,13,1,2,0,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Setono,,1,1,43,37,0,3,3,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Timur,Kalibaros,,0,0,25,15,3,5,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Bandengan,,0,0,17,17,0,0,0,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Degayu,,0,0,18,17,0,0,1,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Krapyak,,3,0,66,55,0,4,7,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Kandang Panjang,,3,0,56,46,1,7,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Panjang Baru,,4,1,40,35,1,2,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Panjang Wetan,,2,0,29,22,1,4,2,,,,,http://corona.pekalongankota.go.id/
+2020-12-19,kelurahan,Alfie Qashwa,2020-12-18,Jawa Tengah,Kota Pekalongan,Pekalongan Utara,Padukuhan Kraton,,6,0,68,55,1,8,4,,,,,http://corona.pekalongankota.go.id/
