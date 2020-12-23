@@ -561,7 +561,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y2y121i'
             # 'token': '4yt6rul1232y2y122y'
             # 'token': '4yt6rul1232y2y1221'
-            'token': '4yt6rul1232y2y1222'
+            # 'token': '4yt6rul1232y2y1222'
+            'token': '4yt6rul1232y2y1223'
         }
 
         # Reminder:
@@ -1710,16 +1711,16 @@ class KotaMagelangSpider(scrapy.Spider):
             }
 
 
-class KaranganyarSpider(scrapy.Spider):
-    name = 'karanganyar'
+class KlatenSpider(scrapy.Spider):
+    name = 'klaten'
     start_urls = [
-        "https://covid19.karanganyarkab.go.id/assets/maps/map-kab-kra.geojson"
+        "https://awasicorona.klatenkab.go.id/piechart"
     ]
     headers = {
         "Accept": "Accept: application/json, text/javascript, */*; q=0.01",
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://covid19.karanganyarkab.go.id/",
+        "Referer": "https://awasicorona.klatenkab.go.id/piechart",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
         "User-Agent": "Mozilla/5.0 (X11 Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
@@ -1731,27 +1732,26 @@ class KaranganyarSpider(scrapy.Spider):
         data = json.loads(raw_data)
 
         scrape_date = datetime.now().strftime("%Y-%m-%d")
-        types = 'kecamatan'
+        types = 'kabupaten'
         user_pic = 'Alfie Qashwa'
         # they will fetch the datas everyday automatically as data-fetching habits
         date_update = datetime.now().strftime("%Y-%m-%d")
         provinsi = 'Jawa Tengah'
-        kabkot = 'Karanganyar'
+        kabkot = 'Klaten'
         kecamatan = ''
         kelurahan = ''
         alamat = ''
-        total_odp = ''
+        total_odp = data[2][1] + data[3][1]
         total_pdp = ''
-        total_positif = ''
-        positif_sembuh = ''
-        positif_dirawat = ''
-        positif_isolasi = ''
-        positif_meninggal = ''
+        positif_sembuh = data[10][1]
+        positif_dirawat = data[0][1]
+        positif_isolasi = data[9][1]
+        positif_meninggal = data[11][1]
         total_otg = ''
         odr_total = ''
         total_pp = ''
         total_ppdt = ''
-        source_link = 'https://covid19.karanganyarkab.go.id/'
+        source_link = 'https://awasicorona.klatenkab.go.id/'
 
         yield {
             'scrape_date': scrape_date,
@@ -1765,7 +1765,7 @@ class KaranganyarSpider(scrapy.Spider):
             'alamat': alamat,
             'total_odp': total_odp,
             'total_pdp': total_pdp,
-            'total_positif': total_positif,
+            'total_positif': positif_sembuh+positif_dirawat+positif_isolasi+positif_meninggal,
             'positif_sembuh': positif_sembuh,
             'positif_dirawat': positif_dirawat,
             'positif_isolasi': positif_isolasi,
