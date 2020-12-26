@@ -1,2 +1,2 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2020-12-25,kabupaten,Alfie Qashwa,2020-12-24,Jawa Tengah,Boyolali,,,,3,113,2896,2286,115,403,92,,3,,,https://covid19.boyolali.go.id/
+2020-12-26,kabupaten,Alfie Qashwa,2020-12-26,Jawa Tengah,Boyolali,,,,63,113,2983,2327,140,422,94,,3,,,https://covid19.boyolali.go.id/
