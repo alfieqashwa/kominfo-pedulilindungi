@@ -1,10 +1,10 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Bae,,,29,6,483,400,10,35,38,,395,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Dawe,,,24,4,263,197,8,27,31,,191,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Gebog,,,22,6,308,249,6,24,29,,146,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Jati,,,38,9,761,592,31,69,69,,213,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Jekulo,,,36,12,528,417,22,35,54,,57,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Kaliwungu,,,42,9,431,343,7,42,39,,214,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Kota kudus,,,35,11,660,505,18,57,80,,230,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Mejobo,,,29,8,377,302,10,22,43,,183,,,https://corona.kuduskab.go.id/
-2021-01-12,kecamatan,Alfie Qashwa,2021-01-11,Jawa Tengah,Kudus,Undaan,,,16,10,254,199,7,26,22,,206,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Bae,,,28,6,497,409,13,37,38,,403,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Dawe,,,26,4,265,200,9,25,31,,191,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Gebog,,,21,7,315,252,7,27,29,,146,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Jati,,,37,9,772,609,35,57,71,,263,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Jekulo,,,38,12,534,425,21,33,55,,53,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Kaliwungu,,,42,9,438,348,8,43,39,,216,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Kota kudus,,,34,11,671,513,19,59,80,,237,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Mejobo,,,30,8,382,305,11,23,43,,199,,,https://corona.kuduskab.go.id/
+2021-01-13,kecamatan,Alfie Qashwa,2021-01-12,Jawa Tengah,Kudus,Undaan,,,17,10,256,202,8,24,22,,226,,,https://corona.kuduskab.go.id/
