@@ -1,2 +1,4 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2021-01-20,kabupaten,Alfie Qashwa,2021-01-20,Jawa Tengah,Klaten,,,,2897,,6482,2835,1069,2442,136,,,,,https://awasicorona.klatenkab.go.id/
+2021-01-21,kabupaten,Alfie Qashwa,2021-01-21,Jawa Tengah,Klaten,,,,2928,,6513,2835,1079,2461,138,,,,,https://awasicorona.klatenkab.go.id/
+scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
+2021-01-21,kabupaten,Alfie Qashwa,2021-01-21,Jawa Tengah,Klaten,,,,2928,,6513,2835,1079,2461,138,,,,,https://awasicorona.klatenkab.go.id/
