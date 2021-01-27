@@ -1,31 +1,31 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Boja 1,,,56,3,398,,,,,,1937,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Boja 2,,,66,1,108,,,,,,210,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Brangsong 1,,,27,4,140,,,,,,576,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Brangsong 2,,,38,9,260,,,,,,456,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Cepiring,,,86,9,291,,,,,,1310,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Gemuh 1,,,17,3,114,,,,,,890,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Gemuh 2,,,19,3,108,,,,,,710,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kaliwungu,,,89,8,586,,,,,,371,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kaliwungu selatan,,,49,7,267,,,,,,697,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kangkung 1,,,23,2,47,,,,,,543,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kangkung 2,,,15,2,57,,,,,,466,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kendal 1,,,34,4,369,,,,,,585,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Kendal 2,,,42,4,228,,,,,,425,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Limbangan,,,35,0,94,,,,,,857,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Ngampel,,,23,4,224,,,,,,884,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Pageruyung,,,44,2,144,,,,,,1408,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Patean,,,64,3,164,,,,,,2171,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Patebon 1,,,14,6,91,,,,,,312,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Patebon 2,,,34,6,164,,,,,,509,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Pegandon,,,53,6,230,,,,,,631,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Plantungan,,,46,1,56,,,,,,1382,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Ringinarum,,,31,0,107,,,,,,833,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Rowosari 1,,,40,3,110,,,,,,601,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Rowosari 2,,,25,1,49,,,,,,313,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Singorojo 1,,,232,0,149,,,,,,1285,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Singorojo 2,,,9,2,114,,,,,,206,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Sukorejo 1,,,30,1,142,,,,,,1860,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Sukorejo 2,,,9,2,45,,,,,,1174,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Weleri 1,,,47,4,146,,,,,,340,,,https://corona.kendalkab.go.id/
-2021-01-26,kecamatan,Alfie Qashwa,2021-01-25,Jawa Tengah,Kendal,Weleri 2,,,38,5,98,,,,,,356,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Boja 1,,,57,3,399,,,,,,1937,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Boja 2,,,67,1,107,,,,,,210,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Brangsong 1,,,27,4,142,,,,,,576,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Brangsong 2,,,39,9,272,,,,,,456,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Cepiring,,,87,9,291,,,,,,1310,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Gemuh 1,,,17,3,114,,,,,,890,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Gemuh 2,,,20,3,109,,,,,,710,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kaliwungu,,,90,8,593,,,,,,371,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kaliwungu selatan,,,49,7,268,,,,,,697,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kangkung 1,,,23,2,48,,,,,,543,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kangkung 2,,,15,2,57,,,,,,466,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kendal 1,,,34,5,371,,,,,,585,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Kendal 2,,,42,4,230,,,,,,425,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Limbangan,,,35,0,94,,,,,,857,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Ngampel,,,23,4,223,,,,,,884,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Pageruyung,,,44,2,147,,,,,,1408,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Patean,,,64,3,165,,,,,,2171,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Patebon 1,,,15,6,89,,,,,,312,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Patebon 2,,,35,6,175,,,,,,509,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Pegandon,,,53,6,232,,,,,,631,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Plantungan,,,50,1,56,,,,,,1382,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Ringinarum,,,31,0,108,,,,,,833,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Rowosari 1,,,39,3,111,,,,,,601,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Rowosari 2,,,24,1,50,,,,,,313,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Singorojo 1,,,232,0,151,,,,,,1285,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Singorojo 2,,,10,2,114,,,,,,206,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Sukorejo 1,,,31,1,142,,,,,,1860,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Sukorejo 2,,,9,2,46,,,,,,1174,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Weleri 1,,,47,4,147,,,,,,340,,,https://corona.kendalkab.go.id/
+2021-01-27,kecamatan,Alfie Qashwa,2021-01-27,Jawa Tengah,Kendal,Weleri 2,,,39,5,98,,,,,,356,,,https://corona.kendalkab.go.id/
