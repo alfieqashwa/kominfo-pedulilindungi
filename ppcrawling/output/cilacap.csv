@@ -1,25 +1,25 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Dayeuhluhur,,,17,,25,23,1,,1,,173,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Wanareja,,,35,,163,91,66,,6,,460,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Majenang,,,97,,1075,1013,41,,21,,1610,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Cimanggu,,,39,,271,190,74,,7,,1068,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Karangpucung,,,27,,169,131,33,,5,,812,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Cipari,,,23,,39,24,15,,0,,204,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Sidareja,,,10,,53,35,17,,1,,263,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Kedungreja,,,15,,76,61,15,,0,,481,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Patimuan,,,6,,47,32,13,,2,,238,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Gandrungmangu,,,33,,101,80,18,,3,,686,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Bantarsari,,,12,,39,27,11,,1,,169,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Kawunganten,,,26,,80,64,13,,3,,319,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Jeruklegi,,,23,,373,296,66,,11,,1179,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Kesugihan,,,48,,496,355,132,,9,,1483,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Adipala,,,26,,198,164,33,,1,,785,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Maos,,,10,,180,151,24,,5,,653,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Kroya,,,21,,372,314,42,,16,,1391,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Binangun,,,9,,127,106,17,,4,,755,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Sampang,,,7,,209,185,21,,3,,908,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Nusawungu,,,11,,153,128,20,,5,,708,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Cilacap Utara,,,56,,744,578,138,,28,,1648,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Cilacap Selatan,,,131,,832,665,153,,14,,1876,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Cilacap Tengah,,,80,,1043,756,252,,35,,3167,,,http://corona.cilacapkab.go.id/
-2021-01-31,kecamatan,Alfie Qashwa,2021-01-31,Jawa Tengah,Cilacap,Kec.Kampung Laut,,,2,,29,27,1,,1,,195,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Dayeuhluhur,,,17,,25,23,1,,1,,173,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Wanareja,,,35,,163,91,66,,6,,460,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Majenang,,,97,,1075,1013,41,,21,,1610,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Cimanggu,,,39,,271,190,74,,7,,1068,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Karangpucung,,,27,,169,131,33,,5,,812,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Cipari,,,23,,39,24,15,,0,,204,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Sidareja,,,10,,53,35,17,,1,,263,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Kedungreja,,,15,,76,61,15,,0,,481,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Patimuan,,,6,,47,32,13,,2,,238,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Gandrungmangu,,,33,,101,80,18,,3,,686,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Bantarsari,,,12,,39,27,11,,1,,169,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Kawunganten,,,26,,80,64,13,,3,,319,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Jeruklegi,,,23,,373,296,66,,11,,1179,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Kesugihan,,,48,,496,355,132,,9,,1483,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Adipala,,,26,,198,164,33,,1,,785,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Maos,,,10,,180,151,24,,5,,653,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Kroya,,,21,,372,314,42,,16,,1391,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Binangun,,,9,,127,106,17,,4,,755,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Sampang,,,7,,209,185,21,,3,,908,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Nusawungu,,,11,,153,128,20,,5,,708,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Cilacap Utara,,,56,,744,578,138,,28,,1648,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Cilacap Selatan,,,131,,832,665,153,,14,,1876,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Cilacap Tengah,,,80,,1043,756,252,,35,,3167,,,http://corona.cilacapkab.go.id/
+2021-02-01,kecamatan,Alfie Qashwa,2021-02-01,Jawa Tengah,Cilacap,Kec.Kampung Laut,,,2,,29,27,1,,1,,195,,,http://corona.cilacapkab.go.id/
