@@ -1,28 +1,28 @@
 scrape_date,types,user_pic,date_update,provinsi,kabkot,kecamatan,kelurahan,alamat,total_odp,total_pdp,total_positif,positif_sembuh,positif_dirawat,positif_isolasi,positif_meninggal,total_otg,odr_total,total_pp,total_ppdt,source_link
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Pesurungan Kidul,Jl. Dewi Sartika No. 73,5,10,46,44,0,1,1,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Debong Lor,Jl. Metro,2,4,46,44,0,0,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Kemandungan,Jl. Taman Sejahtera,1,2,33,25,4,2,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Pekauman,Jl. Ruslani Hs,1,13,81,76,0,2,3,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Kraton,Jl. Cinde,23,28,156,138,5,5,8,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Tegalsari,Jl. Sepat,41,32,119,110,0,1,8,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Barat,Muarareja,Jl. Brawijaya No. 121,3,5,28,25,1,0,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Timur,Kejambon,Jl. Nakula No.15,13,10,191,173,0,6,12,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Timur,Slerok,Jl. Arjuna,13,11,108,97,3,4,4,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Timur,Panggung,Jl. Perintis,64,25,257,225,1,15,16,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Timur,Mangkukusuman,Jl. Kh. Ahmad Dahlan,4,4,56,52,0,2,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Timur,Mintaragen,Jl. Halmahera No.55,30,19,116,94,0,13,9,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Kalinyamat Wetan,Jl. Teuku Cik Diktiro,16,7,25,23,0,1,1,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Bandung,Jl. Teuku Cik Ditiro no 156,4,7,34,32,0,0,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Kidul,Jl. Samadikun No 167,5,6,34,29,0,3,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Tunon,Jl. KH Agung Tirtayasa,9,7,40,35,0,3,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Keturen,Jl. Gatot Subroto No.11,5,5,25,21,0,2,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Kulon,Jl. Dewi Sartika No.17,3,2,37,34,0,3,0,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Tengah,Jl. Abdul Muis No 82,11,21,95,86,1,4,4,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Tegal Selatan,Randugunting,Jl..A.R.Hakim,10,37,218,186,6,15,11,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Kaligangsa,Jl. Cendrawasih,21,7,54,51,0,2,1,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Krandon,Jl. Banda Aceh No 3,5,7,25,19,0,3,3,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Cabawan,Jl. Cabawan,9,5,18,16,0,0,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Kalinyamat Kulon,Jl. Ir.Juanda,0,1,19,15,0,1,3,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Margadana,Jl. Abdul Syukur No.45,11,38,77,56,2,8,11,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Sumurpanggang,Jl. Ki Hajar Dewantoro,14,3,52,48,0,2,2,,,,,https://corona.tegalkota.go.id/
-2021-02-01,kelurahan,Alfie Qashwa,2021-02-01,Jawa Tengah,Kota Tegal,Marganda,Pesurungan Lor,Jl. Kapten Samadikun No. 1,5,1,33,32,0,1,0,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Pesurungan Kidul,Jl. Dewi Sartika No. 73,5,10,46,44,0,1,1,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Debong Lor,Jl. Metro,2,4,46,44,0,0,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Kemandungan,Jl. Taman Sejahtera,1,2,33,27,3,1,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Pekauman,Jl. Ruslani Hs,1,13,81,76,0,2,3,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Kraton,Jl. Cinde,23,28,156,138,5,5,8,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Tegalsari,Jl. Sepat,41,32,119,110,0,1,8,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Barat,Muarareja,Jl. Brawijaya No. 121,3,5,28,26,0,0,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Timur,Kejambon,Jl. Nakula No.15,13,11,191,173,0,6,12,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Timur,Slerok,Jl. Arjuna,13,11,108,97,3,4,4,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Timur,Panggung,Jl. Perintis,64,26,257,226,1,14,16,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Timur,Mangkukusuman,Jl. Kh. Ahmad Dahlan,4,4,56,52,0,2,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Timur,Mintaragen,Jl. Halmahera No.55,30,19,116,94,0,13,9,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Kalinyamat Wetan,Jl. Teuku Cik Diktiro,16,6,26,24,1,0,1,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Bandung,Jl. Teuku Cik Ditiro no 156,4,7,34,32,0,0,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Kidul,Jl. Samadikun No 167,5,6,34,30,0,2,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Tunon,Jl. KH Agung Tirtayasa,9,7,40,36,0,2,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Keturen,Jl. Gatot Subroto No.11,5,5,25,22,0,1,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Kulon,Jl. Dewi Sartika No.17,3,2,37,36,0,1,0,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Debong Tengah,Jl. Abdul Muis No 82,11,21,95,86,1,4,4,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Tegal Selatan,Randugunting,Jl..A.R.Hakim,10,37,218,190,5,12,11,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Kaligangsa,Jl. Cendrawasih,21,7,55,51,0,3,1,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Krandon,Jl. Banda Aceh No 3,5,7,25,19,0,3,3,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Cabawan,Jl. Cabawan,9,5,18,16,0,0,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Kalinyamat Kulon,Jl. Ir.Juanda,0,1,19,15,0,1,3,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Margadana,Jl. Abdul Syukur No.45,11,37,77,60,2,4,11,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Sumurpanggang,Jl. Ki Hajar Dewantoro,14,3,52,49,0,1,2,,,,,https://corona.tegalkota.go.id/
+2021-02-02,kelurahan,Alfie Qashwa,2021-02-02,Jawa Tengah,Kota Tegal,Marganda,Pesurungan Lor,Jl. Kapten Samadikun No. 1,5,1,33,32,0,1,0,,,,,https://corona.tegalkota.go.id/
