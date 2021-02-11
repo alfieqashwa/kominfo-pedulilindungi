@@ -141,63 +141,64 @@ class GroboganSpider(scrapy.Spider):
         }
 
 
-class SemarangSpider(scrapy.Spider):
-    name = "semarang"
-    start_urls = [
-        # "https://siagacorona.semarangkota.go.id/halaman/odppdpv2"
-        "https://siagacorona.semarangkota.go.id/halaman/covid19"
-    ]
+# INFO: MANUAL (IMAGE)
+# class SemarangSpider(scrapy.Spider):
+#     name = "semarang"
+#     start_urls = [
+#         # "https://siagacorona.semarangkota.go.id/halaman/odppdpv2"
+#         "https://siagacorona.semarangkota.go.id/halaman/covid19"
+#     ]
 
-    def parse(self, response):
-        scrape_date = datetime.now().strftime("%Y-%m-%d")
-        types = 'kabupaten'
-        user_pic = 'Alfie Qashwa'
-        # cannot crawl date_update
-        date_update = datetime.now().strftime('%Y-%m-%d')
-        provinsi = 'Jawa Tengah'
-        kabkot = 'Semarang'
-        # dupl_kec = response.xpath(
-        #     '//*[@id="example1"]/tbody/tr/td[2]/text()').extract()
-        # kecamatan = list(dict.fromkeys(dupl_kec))
-        total_odp = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/text()').extract_first()
-        t_pdp = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract()
-        total_pdp = t_pdp[1].strip()
-        positif_sembuh = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[5]/div/div/div[1]/div[2]/div/text()').extract_first()
-        positif_dirawat = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]/div[2]/div/text()').extract_first()
-        positif_isolasi = ''
-        positif_meninggal = response.xpath(
-            '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()').extract_first()
-        total_positif = int(positif_sembuh) + \
-            int(positif_dirawat)+int(positif_meninggal)
-        source_link = 'https://siagacorona.semarangkota.go.id/halaman/covid19'
+#     def parse(self, response):
+#         scrape_date = datetime.now().strftime("%Y-%m-%d")
+#         types = 'kabupaten'
+#         user_pic = 'Alfie Qashwa'
+#         # cannot crawl date_update
+#         date_update = datetime.now().strftime('%Y-%m-%d')
+#         provinsi = 'Jawa Tengah'
+#         kabkot = 'Semarang'
+#         # dupl_kec = response.xpath(
+#         #     '//*[@id="example1"]/tbody/tr/td[2]/text()').extract()
+#         # kecamatan = list(dict.fromkeys(dupl_kec))
+#         total_odp = response.xpath(
+#             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div/text()').extract_first()
+#         t_pdp = response.xpath(
+#             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[3]/div/div/div[1]/div[2]/div/text()').extract()
+#         total_pdp = t_pdp[1].strip()
+#         positif_sembuh = response.xpath(
+#             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[5]/div/div/div[1]/div[2]/div/text()').extract_first()
+#         positif_dirawat = response.xpath(
+#             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[4]/div/div/div[1]/div[2]/div/text()').extract_first()
+#         positif_isolasi = ''
+#         positif_meninggal = response.xpath(
+#             '//*[@id="main-wrapper"]/div[2]/div[2]/div[1]/div[6]/div/div/div[1]/div[2]/div/text()').extract_first()
+#         total_positif = int(positif_sembuh) + \
+#             int(positif_dirawat)+int(positif_meninggal)
+#         source_link = 'https://siagacorona.semarangkota.go.id/halaman/covid19'
 
-        yield {
-            'scrape_date': scrape_date,
-            'types': types,
-            'user_pic': user_pic,
-            'date_update': date_update,
-            'provinsi': provinsi,
-            'kabkot': kabkot,
-            'kecamatan': '',
-            'kelurahan': '',
-            'alamat': '',
-            'total_odp': total_odp,
-            'total_pdp': total_pdp,
-            'total_positif': str(total_positif),
-            'positif_sembuh': positif_sembuh,
-            'positif_dirawat': positif_dirawat,
-            'positif_isolasi': positif_isolasi,
-            'positif_meninggal': positif_meninggal,
-            'total_otg': '',
-            'odr_total': '',
-            'total_pp': '',
-            'total_ppdt': '',
-            'source_link': source_link,
-        }
+#         yield {
+#             'scrape_date': scrape_date,
+#             'types': types,
+#             'user_pic': user_pic,
+#             'date_update': date_update,
+#             'provinsi': provinsi,
+#             'kabkot': kabkot,
+#             'kecamatan': '',
+#             'kelurahan': '',
+#             'alamat': '',
+#             'total_odp': total_odp,
+#             'total_pdp': total_pdp,
+#             'total_positif': str(total_positif),
+#             'positif_sembuh': positif_sembuh,
+#             'positif_dirawat': positif_dirawat,
+#             'positif_isolasi': positif_isolasi,
+#             'positif_meninggal': positif_meninggal,
+#             'total_otg': '',
+#             'odr_total': '',
+#             'total_pp': '',
+#             'total_ppdt': '',
+#             'source_link': source_link,
+#         }
 
 
 ################################# KECAMATAN #####################################
@@ -608,7 +609,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y212k'
             # 'token': '4yt6rul1232y212p'
             # 'token': '4yt6rul1232y212i'
-            'token': '4yt6rul1232y2121y'
+            # 'token': '4yt6rul1232y2121y'
+            'token': '4yt6rul1232y21211'
         }
 
         # Reminder:
