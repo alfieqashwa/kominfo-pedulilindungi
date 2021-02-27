@@ -624,7 +624,8 @@ class TegalSpider(scrapy.Spider):
             # 'token': '4yt6rul1232y21223'
             # 'token': '4yt6rul1232y21224'
             # 'token': '4yt6rul1232y21225'
-            'token': '4yt6rul1232y21226'
+            # 'token': '4yt6rul1232y21226'
+            'token': '4yt6rul1232y2122k'
         }
 
         # Reminder:
